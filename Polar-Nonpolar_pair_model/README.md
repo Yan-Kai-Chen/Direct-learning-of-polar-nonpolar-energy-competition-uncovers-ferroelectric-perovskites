@@ -55,4 +55,4 @@ Users should modify the config file according to their own local environment and
 The training entry script can be executed with:
 
 ```bash
-python scripts/train_retriever.py --config configs/train_pair_retriever.example.yaml
+python scripts/train_retriever.py --config configs/train_pair_retriever.yaml
