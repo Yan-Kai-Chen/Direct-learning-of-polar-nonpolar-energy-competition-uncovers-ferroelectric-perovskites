@@ -1,0 +1,19 @@
+{
+  "PAIR_CSV": "e:\\Chen Yankai\\personal ducuments\\Research\\Research 2_DeepLearning for pervoskite\\Final+step1_cyk\\P_NP_pair.csv",
+  "STRUCT_DIR": "E:\\Chen Yankai\\personal ducuments\\Research\\Research 2_DeepLearning for pervoskite\\Final+step1_cyk\\Structure1",
+  "OUT_DIR": "e:\\Chen Yankai\\personal ducuments\\Research\\Research 2_DeepLearning for pervoskite\\Final+step1_cyk\\pairing_ai_out_group_sym",
+  "GROUP_SPLIT_MODE": "polar",
+  "TEST_SIZE": 0.2,
+  "RANDOM_STATE_BASE": 42,
+  "SELECTED_SEED": 42,
+  "GROUP_NOTE": "group = Polar_mpid (holdout by polar)",
+  "n_pairs_total": 3519,
+  "n_polars_total": 1013,
+  "n_polars_train": 810,
+  "n_polars_test": 203,
+  "n_pairs_train": 2743,
+  "n_pairs_test": 776,
+  "n_unique_nonpolars_train": 1098,
+  "n_unique_nonpolars_test": 469,
+  "nonpolar_overlap_train_test": 321
+}
