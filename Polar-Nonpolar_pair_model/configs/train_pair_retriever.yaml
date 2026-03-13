@@ -1,0 +1,43 @@
+paths:
+  struct_dir: "E:/Chen Yankai/personal ducuments/Research/Research 2_DeepLearning for pervoskite/Final+step1_cyk/Structure1"
+  train_pos_csv: "./pairing_ai_out_group_sym/splits/train_pairs_pos.csv"
+  test_pos_csv: "./pairing_ai_out_group_sym/splits/test_pairs_pos.csv"
+  hard_pool_index: "./pairing_ai_out_group_sym/test_candidate_pool_mp/candidate_index.csv"
+  run_dir: "./pairing_ai_out_group_sym/pyg_gnn_retriever_out"
+
+graph:
+  cutoff: 6.0
+  max_neighbors: 64
+
+model:
+  hidden: 128
+  layers: 4
+  emb_dim: 128
+  dropout: 0.1
+  z_max: 100
+
+train:
+  device: "auto"
+  seed: 42
+  epochs: 60
+  batch_polars: 96
+  lr: 2.0e-4
+  weight_decay: 1.0e-5
+  temperature: 0.07
+
+  neg_per_polar_extra: 8
+  use_same_formula_neg: true
+
+  use_sym_hinge_loss: true
+  symprec_opcount: 0.01
+  ops_norm: 192.0
+  sym_margin: 0.0
+  lambda_sym_loss: 0.15
+
+eval:
+  use_hard_testpool: false
+  use_sym_score_bias: true
+  lambda_sym_score: 0.15
+  clamp_delta: 1.0
+  embed_batch_size: 128
+  ks: [1, 3, 5, 10]
