@@ -1,9 +1,9 @@
 paths:
-  struct_dir: "E:/Chen Yankai/personal ducuments/Research/Research 2_DeepLearning for pervoskite/Final+step1_cyk/Structure1"
-  train_pos_csv: "./pairing_ai_out_group_sym/splits/train_pairs_pos.csv"
-  test_pos_csv: "./pairing_ai_out_group_sym/splits/test_pairs_pos.csv"
-  hard_pool_index: "./pairing_ai_out_group_sym/test_candidate_pool_mp/candidate_index.csv"
-  run_dir: "./pairing_ai_out_group_sym/pyg_gnn_retriever_out"
+  struct_dir: "./data/structures"
+  train_pos_csv: "./data/splits/train_pairs_pos.csv"
+  test_pos_csv: "./data/splits/test_pairs_pos.csv"
+  hard_pool_index: "./data/test_candidate_pool/candidate_index.csv"
+  run_dir: "./outputs/train_run"
 
 graph:
   cutoff: 6.0
