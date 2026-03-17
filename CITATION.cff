@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite this repository and the associated paper."
+title: "Direct-learning-of-polar-nonpolar-energy-competition-uncovers-ferroelectric-perovskites"
+type: software
+authors:
+  - family-names: Chen
+    given-names: Yankai
+    affiliation: Tsinghua University
+    email: chenyankai25@mails.tsinghua.edu.cn
+  - family-names: Wang
+    given-names: Yuxuan
+    affiliation: Northwestern Polytechnical University
+    email: wyx2025201020@mail.nwpu.edu.cn
+repository-code: "https://github.com/Yan-Kai-Chen/Direct-learning-of-polar-nonpolar-energy-competition-uncovers-ferroelectric-perovskites"
+license: MIT
+version: 1.0.0
+date-released: 2026-03-17
