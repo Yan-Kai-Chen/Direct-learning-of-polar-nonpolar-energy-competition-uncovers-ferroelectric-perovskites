@@ -46,7 +46,18 @@ Ferroelectric discovery depends on understanding the energetic competition betwe
 The code is organized to make the main workflow transparent while keeping certain research-specific engineering details abstracted in the public release where appropriate.
 
 ---
+## Authors
 
+- **Yankai Chen**, Tsinghua University  
+  Email: chenyankai25@mails.tsinghua.edu.cn
+
+- **Yuxuan Wang**, Northwestern Polytechnical University  
+  Email: wyx2025201020@mail.nwpu.edu.cn
+
+## Citation
+
+If you use this code, please cite this repository and the associated paper.  
+Citation metadata is provided in `CITATION.cff`.
 ## Repository Structure
 
 Current top-level structure:
@@ -60,3 +71,4 @@ Current top-level structure:
 ├── External_Validation_1.csv
 ├── External_Validation_2.csv
 └── LICENSE
+
