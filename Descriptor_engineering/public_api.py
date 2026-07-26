@@ -1,24 +1,28 @@
-# -*- coding: utf-8 -*-
-"""
-Public API for descriptor engineering.
-
-This file keeps the workflow and interfaces public,
-while sensitive descriptor rules are injected externally.
-"""
-
 from __future__ import annotations
 
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Dict, Any, List
+from typing import Any
 
 import pandas as pd
 
+try:
+    from .a_site_geometry import run_a_site_geometry_stage
+    from .b_site_geometry import run_b_site_geometry_stage
+    from .derived_features import run_derived_features_stage
+    from .elemental_mapping import run_elemental_mapping_stage
+    from .ewald_features import run_ewald_stage
+    from .site_assignment import run_site_assignment_stage
+except ImportError:
+    from a_site_geometry import run_a_site_geometry_stage
+    from b_site_geometry import run_b_site_geometry_stage
+    from derived_features import run_derived_features_stage
+    from elemental_mapping import run_elemental_mapping_stage
+    from ewald_features import run_ewald_stage
+    from site_assignment import run_site_assignment_stage
 
-# =========================================================
-# Data classes
-# =========================================================
-@dataclass
+
+@dataclass(frozen=True)
 class PipelinePaths:
     input_pair_csv: Path
     element_property_csv: Path
@@ -27,7 +31,7 @@ class PipelinePaths:
     output_dir: Path
 
 
-@dataclass
+@dataclass(frozen=True)
 class PipelineOutputs:
     site_csv: Path
     elemental_csv: Path
@@ -38,20 +42,19 @@ class PipelineOutputs:
     final_feature_csv: Path
 
 
-# =========================================================
-# Main pipeline
-# =========================================================
 class DescriptorPipeline:
+    """Seven-stage descriptor workflow with externally supplied rule mappings."""
+
     def __init__(
         self,
         paths: PipelinePaths,
-        site_rules: Dict[str, Any],
-        element_rules: Dict[str, Any],
-        a_geom_rules: Dict[str, Any],
-        b_geom_rules: Dict[str, Any],
-        ewald_rules: Dict[str, Any],
-        derived_rules: Dict[str, Any],
-        export_rules: Dict[str, Any],
+        site_rules: dict[str, Any],
+        element_rules: dict[str, Any],
+        a_geom_rules: dict[str, Any],
+        b_geom_rules: dict[str, Any],
+        ewald_rules: dict[str, Any],
+        derived_rules: dict[str, Any],
+        export_rules: dict[str, Any],
     ) -> None:
         self.paths = paths
         self.site_rules = site_rules
@@ -62,277 +65,112 @@ class DescriptorPipeline:
         self.derived_rules = derived_rules
         self.export_rules = export_rules
 
-    def run_all(self) -> PipelineOutputs:
-        self._validate_inputs()
-
-        site_csv = self.run_site_assignment()
-        elemental_csv = self.run_elemental_mapping(site_csv)
-        a_geom_csv = self.run_a_geometry(elemental_csv)
-        b_geom_csv = self.run_b_geometry(a_geom_csv)
-        ewald_csv = self.run_ewald(b_geom_csv)
-        derived_csv = self.run_derived_features(ewald_csv)
-        final_feature_csv = self.run_export(derived_csv)
-
-        return PipelineOutputs(
-            site_csv=site_csv,
-            elemental_csv=elemental_csv,
-            a_geom_csv=a_geom_csv,
-            b_geom_csv=b_geom_csv,
-            ewald_csv=ewald_csv,
-            derived_csv=derived_csv,
-            final_feature_csv=final_feature_csv,
-        )
-
-    # -----------------------------------------------------
-    # Validation
-    # -----------------------------------------------------
     def _validate_inputs(self) -> None:
         if not self.paths.input_pair_csv.is_file():
-            raise FileNotFoundError(f"Missing input pair CSV: {self.paths.input_pair_csv}")
+            raise FileNotFoundError(
+                f"Missing input pair CSV: {self.paths.input_pair_csv}"
+            )
         if not self.paths.element_property_csv.is_file():
-            raise FileNotFoundError(f"Missing element property CSV: {self.paths.element_property_csv}")
-        if not self.paths.structure_dir.exists():
-            raise FileNotFoundError(f"Missing structure directory: {self.paths.structure_dir}")
+            raise FileNotFoundError(
+                "Missing element-property CSV: "
+                f"{self.paths.element_property_csv}"
+            )
+        if not self.paths.structure_dir.is_dir():
+            raise FileNotFoundError(
+                f"Missing structure directory: {self.paths.structure_dir}"
+            )
 
-    # -----------------------------------------------------
-    # Stage 1: A/B/X site assignment
-    # -----------------------------------------------------
+    @staticmethod
+    def _write(frame: pd.DataFrame, path: Path) -> Path:
+        path.parent.mkdir(parents=True, exist_ok=True)
+        frame.to_csv(path, index=False)
+        print(f"[OK] {path}")
+        return path
+
     def run_site_assignment(self) -> Path:
-        df = pd.read_csv(self.paths.input_pair_csv)
-        df.columns = [str(c).strip() for c in df.columns]
+        frame = pd.read_csv(self.paths.input_pair_csv, low_memory=False)
+        output = run_site_assignment_stage(frame, self.site_rules)
+        return self._write(output, self.paths.work_dir / "01_site_assignment.csv")
 
-        # Public-level logic only:
-        # - parse formula
-        # - assign A/B/X by a private site rule
-        # - write site-level composition metadata
-        out = self._apply_site_assignment(df, self.site_rules)
-
-        out_path = self.paths.work_dir / "01_site_assignment.csv"
-        out.to_csv(out_path, index=False)
-        print(f"[OK] site assignment -> {out_path}")
-        return out_path
-
-    # -----------------------------------------------------
-    # Stage 2: elemental property mapping
-    # -----------------------------------------------------
     def run_elemental_mapping(self, input_csv: Path) -> Path:
-        df = pd.read_csv(input_csv)
-        prop = pd.read_csv(self.paths.element_property_csv)
-
-        out = self._apply_elemental_mapping(df, prop, self.element_rules)
-
-        out_path = self.paths.work_dir / "02_elemental_mapping.csv"
-        out.to_csv(out_path, index=False)
-        print(f"[OK] elemental mapping -> {out_path}")
-        return out_path
-
-    # -----------------------------------------------------
-    # Stage 3: A-site geometry features
-    # -----------------------------------------------------
+        frame = pd.read_csv(input_csv, low_memory=False)
+        properties = pd.read_csv(
+            self.paths.element_property_csv,
+            low_memory=False,
+        )
+        output = run_elemental_mapping_stage(
+            frame,
+            properties,
+            self.element_rules,
+        )
+        return self._write(
+            output,
+            self.paths.work_dir / "02_elemental_mapping.csv",
+        )
     def run_a_geometry(self, input_csv: Path) -> Path:
-        df = pd.read_csv(input_csv)
+        output = run_a_site_geometry_stage(
+            pd.read_csv(input_csv, low_memory=False),
+            self.paths.structure_dir,
+            self.a_geom_rules,
+        )
+        return self._write(output, self.paths.work_dir / "03_A_geometry.csv")
 
-        out = self._apply_a_geometry(df, self.paths.structure_dir, self.a_geom_rules)
-
-        out_path = self.paths.work_dir / "03_A_geometry.csv"
-        out.to_csv(out_path, index=False)
-        print(f"[OK] A geometry -> {out_path}")
-        return out_path
-
-    # -----------------------------------------------------
-    # Stage 4: B-site geometry / off-centering
-    # -----------------------------------------------------
     def run_b_geometry(self, input_csv: Path) -> Path:
-        df = pd.read_csv(input_csv)
+        output = run_b_site_geometry_stage(
+            pd.read_csv(input_csv, low_memory=False),
+            self.paths.structure_dir,
+            self.b_geom_rules,
+        )
+        return self._write(output, self.paths.work_dir / "04_B_geometry.csv")
 
-        out = self._apply_b_geometry(df, self.paths.structure_dir, self.b_geom_rules)
-
-        out_path = self.paths.work_dir / "04_B_geometry.csv"
-        out.to_csv(out_path, index=False)
-        print(f"[OK] B geometry -> {out_path}")
-        return out_path
-
-    # -----------------------------------------------------
-    # Stage 5: Ewald / electrostatic features
-    # -----------------------------------------------------
     def run_ewald(self, input_csv: Path) -> Path:
-        df = pd.read_csv(input_csv)
+        output = run_ewald_stage(
+            pd.read_csv(input_csv, low_memory=False),
+            self.paths.structure_dir,
+            self.ewald_rules,
+        )
+        return self._write(output, self.paths.work_dir / "05_ewald.csv")
 
-        out = self._apply_ewald(df, self.paths.structure_dir, self.ewald_rules)
-
-        out_path = self.paths.work_dir / "05_ewald.csv"
-        out.to_csv(out_path, index=False)
-        print(f"[OK] Ewald features -> {out_path}")
-        return out_path
-
-    # -----------------------------------------------------
-    # Stage 6: derived features / interactions
-    # -----------------------------------------------------
     def run_derived_features(self, input_csv: Path) -> Path:
-        df = pd.read_csv(input_csv)
+        output = run_derived_features_stage(
+            pd.read_csv(input_csv, low_memory=False),
+            self.derived_rules,
+        )
+        return self._write(
+            output,
+            self.paths.work_dir / "06_derived_features.csv",
+        )
 
-        out = self._apply_derived_features(df, self.derived_rules)
-
-        out_path = self.paths.work_dir / "06_derived_features.csv"
-        out.to_csv(out_path, index=False)
-        print(f"[OK] derived features -> {out_path}")
-        return out_path
-
-    # -----------------------------------------------------
-    # Stage 7: export final selected feature table
-    # -----------------------------------------------------
     def run_export(self, input_csv: Path) -> Path:
-        df = pd.read_csv(input_csv)
-
-        out = self._apply_export_rules(df, self.export_rules)
-
-        out_path = self.paths.output_dir / "descriptor_table_public_ready.csv"
-        out.to_csv(out_path, index=False)
-        print(f"[OK] final export -> {out_path}")
-        return out_path
-
-    # =====================================================
-    # Internal public-safe wrappers
-    # =====================================================
-    def _apply_site_assignment(self, df: pd.DataFrame, rules: Dict[str, Any]) -> pd.DataFrame:
-        out = df.copy()
-
-        # Placeholder public interface:
-        # real ranking criteria / tie-break rules stay private
-        required_cols = rules.get("required_input_cols", ["Polar_pretty_formula"])
-        for c in required_cols:
-            if c not in out.columns:
-                raise ValueError(f"Missing required column for site assignment: {c}")
-
-        # Public placeholders for output schema
-        public_site_cols = rules.get(
-            "public_output_cols",
-            [
-                "A_site_symbol",
-                "B_site_symbol",
-                "X_site_symbol",
-                "A_site_fraction",
-                "B_site_fraction",
-                "X_site_fraction",
-            ],
+        frame = pd.read_csv(input_csv, low_memory=False)
+        keep = self.export_rules.get("public_keep_cols")
+        if keep:
+            missing = sorted(set(keep) - set(frame.columns))
+            if missing and self.export_rules.get("strict_mode", True):
+                raise KeyError(f"Export columns are missing: {missing}")
+            frame = frame.loc[:, [column for column in keep if column in frame]]
+        return self._write(
+            frame,
+            self.paths.output_dir / "descriptor_table_public_ready.csv",
         )
-        for c in public_site_cols:
-            if c not in out.columns:
-                out[c] = pd.NA
 
-        return out
-
-    def _apply_elemental_mapping(
-        self,
-        df: pd.DataFrame,
-        prop: pd.DataFrame,
-        rules: Dict[str, Any],
-    ) -> pd.DataFrame:
-        out = df.copy()
-
-        # Public-only contract:
-        # private rules define which elemental properties are actually mapped
-        property_cols = rules.get("public_property_cols", [])
-        for c in property_cols:
-            if c not in out.columns:
-                out[c] = pd.NA
-
-        return out
-
-    def _apply_a_geometry(
-        self,
-        df: pd.DataFrame,
-        structure_dir: Path,
-        rules: Dict[str, Any],
-    ) -> pd.DataFrame:
-        out = df.copy()
-
-        public_cols = rules.get(
-            "public_output_cols",
-            [
-                "polar_A_geom_1",
-                "npolar_A_geom_1",
-                "d_A_geom_1",
-            ],
+    def run_all(self) -> PipelineOutputs:
+        self._validate_inputs()
+        self.paths.work_dir.mkdir(parents=True, exist_ok=True)
+        self.paths.output_dir.mkdir(parents=True, exist_ok=True)
+        site = self.run_site_assignment()
+        elemental = self.run_elemental_mapping(site)
+        a_geometry = self.run_a_geometry(elemental)
+        b_geometry = self.run_b_geometry(a_geometry)
+        ewald = self.run_ewald(b_geometry)
+        derived = self.run_derived_features(ewald)
+        final = self.run_export(derived)
+        return PipelineOutputs(
+            site_csv=site,
+            elemental_csv=elemental,
+            a_geom_csv=a_geometry,
+            b_geom_csv=b_geometry,
+            ewald_csv=ewald,
+            derived_csv=derived,
+            final_feature_csv=final,
         )
-        for c in public_cols:
-            if c not in out.columns:
-                out[c] = pd.NA
-
-        return out
-
-    def _apply_b_geometry(
-        self,
-        df: pd.DataFrame,
-        structure_dir: Path,
-        rules: Dict[str, Any],
-    ) -> pd.DataFrame:
-        out = df.copy()
-
-        public_cols = rules.get(
-            "public_output_cols",
-            [
-                "polar_B_geom_1",
-                "npolar_B_geom_1",
-                "d_B_geom_1",
-            ],
-        )
-        for c in public_cols:
-            if c not in out.columns:
-                out[c] = pd.NA
-
-        return out
-
-    def _apply_ewald(
-        self,
-        df: pd.DataFrame,
-        structure_dir: Path,
-        rules: Dict[str, Any],
-    ) -> pd.DataFrame:
-        out = df.copy()
-
-        public_cols = rules.get(
-            "public_output_cols",
-            [
-                "polar_Ewald_1",
-                "npolar_Ewald_1",
-                "d_Ewald_1",
-            ],
-        )
-        for c in public_cols:
-            if c not in out.columns:
-                out[c] = pd.NA
-
-        return out
-
-    def _apply_derived_features(
-        self,
-        df: pd.DataFrame,
-        rules: Dict[str, Any],
-    ) -> pd.DataFrame:
-        out = df.copy()
-
-        public_cols = rules.get(
-            "public_output_cols",
-            [
-                "derived_feature_1",
-                "derived_feature_2",
-            ],
-        )
-        for c in public_cols:
-            if c not in out.columns:
-                out[c] = pd.NA
-
-        return out
-
-    def _apply_export_rules(
-        self,
-        df: pd.DataFrame,
-        rules: Dict[str, Any],
-    ) -> pd.DataFrame:
-        keep_cols = rules.get("public_keep_cols")
-        if keep_cols is None:
-            return df.copy()
-
-        keep_cols = [c for c in keep_cols if c in df.columns]
-        return df.loc[:, keep_cols].copy()

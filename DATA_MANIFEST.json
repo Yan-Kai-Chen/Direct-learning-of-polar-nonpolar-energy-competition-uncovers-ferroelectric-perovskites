@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "hash_algorithm": "SHA-256",
+  "files": [
+    {
+      "path": "Train_EXAMPLE.csv",
+      "rows": 3238,
+      "columns": 126,
+      "sha256": "9ee4da0e96cf03d83ef4bcf1c0a13cd5931f035023849cea9c15f115f23f4895",
+      "role": "fixed public train/validation/test table"
+    },
+    {
+      "path": "External_Validation_1.csv",
+      "rows": 1130,
+      "columns": 124,
+      "sha256": "fed08a8372d9412aa15c53ae3255c7a2377e55758c15bf6c9aba3032982ea2b5",
+      "role": "external validation table"
+    },
+    {
+      "path": "External_Validation_2.csv",
+      "rows": 413,
+      "columns": 124,
+      "sha256": "baa31a5a6c9b7fd77675ce2bc257e9f9ae708d1bc9606857fbb4abbcd5f57db2",
+      "role": "external validation table"
+    }
+  ]
+}

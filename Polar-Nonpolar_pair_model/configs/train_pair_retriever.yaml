@@ -1,8 +1,8 @@
 paths:
   struct_dir: "./data/structures"
-  train_pos_csv: "./data/splits/train_pairs_pos.csv"
-  test_pos_csv: "./data/splits/test_pairs_pos.csv"
-  hard_pool_index: "./data/test_candidate_pool/candidate_index.csv"
+  train_pos_csv: "./pairing_ai_out_group_sym/splits/train_pairs_pos.csv"
+  test_pos_csv: "./pairing_ai_out_group_sym/splits/test_pairs_pos.csv"
+  hard_pool_index: null
   run_dir: "./outputs/train_run"
 
 graph:
@@ -14,7 +14,7 @@ model:
   layers: 4
   emb_dim: 128
   dropout: 0.1
-  z_max: 100
+  z_max: 118
 
 train:
   device: "auto"
