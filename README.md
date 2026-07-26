@@ -1,74 +1,107 @@
-# Direct Learning of Polar–Nonpolar Energy Competition for Ferroelectric Perovskites
+# Direct learning of polar–nonpolar energy competition uncovers ferroelectric perovskites
 
-This repository contains the public-release code and example data accompanying our workflow for **direct learning of polar–nonpolar energy competition** in perovskite materials. The repository integrates three major components:
+This repository contains the public, reproducible code and example tables for a
+workflow that learns the energy competition between paired polar and nonpolar
+perovskite structures.
 
-1. **Polar–nonpolar pair modeling**
-2. **Descriptor engineering**
-3. **Angular equivariant graph neural network training**
-
-The overall objective is to learn structure-aware and pair-aware representations that can predict or rank the energetic competition between matched polar and nonpolar structures, enabling data-driven ferroelectric screening and external validation.
-
----
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Repository Structure](#repository-structure)
-- [Scientific Scope](#scientific-scope)
-- [Included Data Files](#included-data-files)
-- [Module 1: Polar–Nonpolar Pair Model](#module-1-polarnonpolar-pair-model)
-- [Module 2: Descriptor Engineering](#module-2-descriptor-engineering)
-- [Module 3: Angular Equivariant GNN](#module-3-angular-equivariant-gnn)
-- [Installation](#installation)
-- [Quick Start](#quick-start)
-- [Expected Input Format](#expected-input-format)
-- [Outputs](#outputs)
-- [Reproducibility Notes](#reproducibility-notes)
-- [Scope of This Public Release](#scope-of-this-public-release)
-- [Limitations](#limitations)
-- [License](#license)
-- [Citation](#citation)
-- [Contact](#contact)
-
----
-
-## Overview
-
-Ferroelectric discovery depends on understanding the energetic competition between **polar** and **nonpolar** structural states. This repository provides a workflow-level public release for building, training, and evaluating models that operate directly on **polar–nonpolar pairs**, including:
-
-- pair retrieval / pair modeling logic,
-- descriptor-based feature engineering,
-- angular graph construction with equivariant message passing,
-- repeated grouped evaluation,
-- optional post-hoc residual fusion with gradient-boosted trees,
-- example training and external validation tables.
-
-The code is organized to make the main workflow transparent while keeping certain research-specific engineering details abstracted in the public release where appropriate.
-
----
-## Authors
-
-- **Yankai Chen**, Tsinghua University  
-  Email: chenyankai25@mails.tsinghua.edu.cn
-
-- **Yuxuan Wang**, Northwestern Polytechnical University  
-  Email: wyx2025201020@mail.nwpu.edu.cn
-
-## Citation
-
-If you use this code, please cite this repository and the associated paper.  
-Citation metadata is provided in `CITATION.cff`.
-## Repository Structure
-
-Current top-level structure:
+The release follows the original three-part project layout:
 
 ```text
 .
-├── AE3GNN_Build&Train/
-├── Descriptor_engineering/
-├── Polar-Nonpolar_pair_model/
-├── Train_EXAMPLE.csv
-├── External_Validation_1.csv
-├── External_Validation_2.csv
-└── LICENSE
+├── AE3GNN_Build&Train/          angular equivariant pair-energy GNN
+├── Descriptor_engineering/      interpretable pair descriptors
+├── Polar-Nonpolar_pair_model/   polar-holdout pair retrieval
+├── Train_EXAMPLE.csv            fixed public train/val/test table
+├── External_Validation_1.csv    public external-validation table
+└── External_Validation_2.csv    public external-validation table
+```
 
+## Reproducibility boundary
+
+- `Train_EXAMPLE.csv` contains the fixed public `train`, `val`, and `test`
+  labels. Code reads this column directly and does not regenerate a split.
+- `row_idx` is an identifier only. It is explicitly excluded from model
+  features.
+- The CSV files and split manifests already present in the repository remain
+  unchanged in this release.
+- CIF structure libraries, graph caches, trained weights, prediction exports,
+  API credentials, private rules, and machine-specific paths are not included.
+- Different user-created splits can produce different results. They should be
+  reported as separate experiments, not compared as exact reproductions of the
+  fixed public split.
+
+See [DATA_AND_PRIVACY.md](DATA_AND_PRIVACY.md) and
+[DATA_MANIFEST.json](DATA_MANIFEST.json) for the public-data contract.
+
+## Installation
+
+Python 3.10 or 3.11 is recommended.
+
+```bash
+conda env create -f environment.yml
+conda activate polar-nonpolar-learning
+```
+
+The graph models use PyTorch and PyTorch Geometric. If your CUDA setup requires
+a platform-specific PyTorch wheel, install PyTorch first using the official
+selector and then run:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+## Quick verification
+
+These commands audit the fixed public data and split without training a model:
+
+```bash
+python "AE3GNN_Build&Train/scripts/audit_training_data.py" \
+  --data Train_EXAMPLE.csv
+
+python "Polar-Nonpolar_pair_model/scripts/audit_pairing.py" \
+  --train-pairs "Polar-Nonpolar_pair_model/pairing_ai_out_group_sym/splits/train_pairs_pos.csv" \
+  --test-pairs "Polar-Nonpolar_pair_model/pairing_ai_out_group_sym/splits/test_pairs_pos.csv"
+
+python -m unittest discover -s tests -v
+```
+
+The unit tests use synthetic graphs and small in-memory tables; they do not run
+full training.
+
+## Workflow
+
+1. **Pair retrieval.** Use a polar-structure holdout and a two-tower graph
+   encoder to retrieve candidate nonpolar partners. The optional symmetry score
+   adjustment is implemented explicitly and audited independently.
+2. **Descriptor engineering.** Map composition, local geometry, and
+   electrostatic descriptors from user-supplied structures and element-property
+   data.
+3. **Energy learning.** Build periodic graphs with angular triplets and train
+   the pair-energy model on the fixed split in `Train_EXAMPLE.csv`.
+4. **External evaluation.** Apply the trained model to the two public
+   validation tables with matching CIF structures supplied locally.
+
+Each module has its own README with exact inputs and commands.
+
+## Public data summary
+
+| File | Rows | Columns | Role |
+|---|---:|---:|---|
+| `Train_EXAMPLE.csv` | 3,238 | 126 | Fixed public train/val/test table |
+| `External_Validation_1.csv` | 1,130 | 124 | External validation |
+| `External_Validation_2.csv` | 413 | 124 | External validation |
+
+The target for energy regression is `Energy_diff_meV`. A derived binary label,
+when needed for analysis, is `+1` for `abs(Energy_diff_meV) < 70` and `-1`
+otherwise; the label is derived in memory and is not required as an input
+column.
+
+## Citation
+
+If this repository supports your work, cite the associated manuscript and the
+software metadata in [CITATION.cff](CITATION.cff).
+
+## License
+
+Code is released under the [MIT License](LICENSE). Users are responsible for
+checking the terms attached to any structures or elemental data they supply.

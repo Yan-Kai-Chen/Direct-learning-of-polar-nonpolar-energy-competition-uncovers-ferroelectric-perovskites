@@ -1,0 +1,31 @@
+seed: 42
+device: auto
+epochs: 120
+patience: 15
+batch_size_train: 8
+batch_size_inference: 16
+learning_rate: 3.0e-4
+weight_decay: 1.0e-4
+clip_grad_norm: 2.0
+use_amp: true
+huber_beta_normalized: 0.25
+tail_lambda: 0.8
+tail_scale_mev: 60.0
+tail_clip: 2.5
+max_sample_weight: 3.5
+
+model:
+  dim: 128
+  n_layers: 2
+  rbf_dim: 48
+  dropout: 0.2
+  z_max: 118
+  angle_hidden: 160
+  r_max: 6.0
+
+graph:
+  r_max: 6.0
+  max_neighbors: 64
+  self_loops: false
+  k_angle: 12
+  max_triplets_per_center: 200

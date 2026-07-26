@@ -76,15 +76,21 @@ def _delta_feature_dict(
     delta_prefix: str = "d_",
 ) -> Dict[str, float]:
     out = {}
-    keys = sorted(set(polar_d.keys()) & set(npolar_d.keys()))
-    for k in keys:
-        pk = polar_d[k]
-        nk = npolar_d[k]
-        name = k.replace("polar_", delta_prefix, 1) if k.startswith("polar_") else f"{delta_prefix}{k}"
+    for polar_key in sorted(polar_d):
+        base = (
+            polar_key[len("polar_") :]
+            if polar_key.startswith("polar_")
+            else polar_key
+        )
+        nonpolar_key = f"npolar_{base}"
+        if nonpolar_key not in npolar_d:
+            continue
         try:
-            out[name] = float(pk) - float(nk)
+            out[f"{delta_prefix}{base}"] = (
+                float(polar_d[polar_key]) - float(npolar_d[nonpolar_key])
+            )
         except Exception:
-            out[name] = np.nan
+            out[f"{delta_prefix}{base}"] = np.nan
     return out
 
 
@@ -225,12 +231,12 @@ def run_ewald_stage(
 
     strict_mode = bool(rules.get("strict_mode", False))
 
-    for row in out.itertuples(index=False):
-        polar_mpid = getattr(row, "Polar_mpid")
-        npolar_mpid = getattr(row, "NPolar_mpid")
-        A_symbol = getattr(row, "$A_{site}$")
-        B_symbol = getattr(row, "$B_{site}$")
-        X_symbol = getattr(row, "$X_{site}$")
+    for _, row in out.iterrows():
+        polar_mpid = row["Polar_mpid"]
+        npolar_mpid = row["NPolar_mpid"]
+        A_symbol = row["$A_{site}$"]
+        B_symbol = row["$B_{site}$"]
+        X_symbol = row["$X_{site}$"]
 
         p_struct = _load_structure(polar_mpid, cif_index)
         n_struct = _load_structure(npolar_mpid, cif_index)

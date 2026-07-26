@@ -1,71 +1,61 @@
-# Angular Equivariant Pair GNN
+# AE3GNN build and training
 
-This module contains the public-release training pipeline for an **angle-augmented PaiNN-style equivariant graph neural network** designed for polar–nonpolar pair learning.
+This module implements the public angular equivariant graph-neural-network
+workflow for polar–nonpolar energy regression.
 
-## Overview
+## Model and graph contract
 
-The workflow is organized into two main stages:
+- periodic radius graph: 6.0 Å cutoff;
+- at most 64 outgoing neighbors per center;
+- angle construction from the nearest 12 primary edges;
+- at most 200 angle triplets per center;
+- two PaiNN-style scalar/vector message-passing layers;
+- hidden dimension 128, 48 radial basis functions, dropout 0.2;
+- pair representation: polar, nonpolar, signed difference, and absolute
+  difference;
+- target: `Energy_diff_meV`.
 
-1. **Graph construction and caching**  
-   Build periodic structure graphs with distance-based edges and explicit angle triplets.
+The defaults are recorded in `configs/train_example.yaml`.
 
-2. **Model training and evaluation**  
-   Train an angular PaiNN pair model for predicting the energy difference between polar and nonpolar structures, with an optional one-shot XGBoost residual fusion stage.
+## Data contract
 
-This public version is intended to document the workflow and provide a reproducible training framework. It does **not** include the full private dataset, complete structure library, or all internal experimental variants.
+`Train_EXAMPLE.csv` supplies the fixed split through its `split` column. The
+training code never regenerates this split. `row_idx`, structure identifiers,
+the split label, and the target are excluded from optional numeric residual
+features.
 
-## Method Summary
+The repository does not include CIF files or graph caches. Supply a local
+structure directory containing files named by `Polar_mpid` and `NPolar_mpid`.
 
-### Stage 1 — Graph construction
+## Commands
 
-For each structure, the graph-building stage:
+From the repository root:
 
-- reads CIF files
-- constructs periodic neighbor graphs using a radius cutoff
-- applies per-center top-K neighbor selection
-- forces bidirectional edges
-- builds angle triplets on primary edges
-- saves one cached graph per structure
+```bash
+python "AE3GNN_Build&Train/scripts/audit_training_data.py" \
+  --data Train_EXAMPLE.csv
 
-Each cached graph contains at least:
+python "AE3GNN_Build&Train/scripts/smoke_train.py"
 
-- atomic numbers
-- Cartesian positions
-- edge indices
-- edge vectors
-- edge distances
-- periodic shift vectors
-- angle-triplet indices
-- angle-triplet cosine values
+python "AE3GNN_Build&Train/scripts/train.py" \
+  --data Train_EXAMPLE.csv \
+  --structures /path/to/cif_directory \
+  --output outputs/ae3gnn_run \
+  --config "AE3GNN_Build&Train/configs/train_example.yaml"
+```
 
-### Stage 2 — Pair model training
+The smoke command creates synthetic graphs in memory, performs exactly one
+optimizer step, and writes no checkpoint.
 
-The training stage:
+Prediction from a user-created bundle:
 
-- loads cached polar and nonpolar graphs
-- builds pair-level mini-batches
-- encodes each structure using an angular PaiNN-style equivariant encoder
-- forms a pair representation from polar/nonpolar graph embeddings
-- predicts the energy difference between the paired structures
+```bash
+python "AE3GNN_Build&Train/scripts/predict.py" \
+  --bundle outputs/ae3gnn_run/gnn_bundle.pt \
+  --data External_Validation_1.csv \
+  --structures /path/to/cif_directory \
+  --graph-cache /path/to/local_graph_cache \
+  --output outputs/external_validation_1_predictions.csv
+```
 
-The main model is the **GNN itself**.
-
-An optional **XGBoost residual fusion** stage can be enabled to learn residual errors from tabular numeric features after the GNN prediction.
-
-## Repository Structure
-
-Typical files in this module include:
-
-- `CELL 1` or graph-build notebook section  
-  Build graph cache with angle triplets.
-
-- `CELL 2` or training notebook section  
-  Train the angular PaiNN pair model and evaluate performance.
-
-If refactored into scripts, the structure may look like:
-
-```text
-graph_build/          graph construction and cache generation
-training/             model training and evaluation
-artifacts/            saved graph caches and model outputs
-README.md             module description
+Full training is intentionally not part of the test suite.

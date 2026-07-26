@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local credentials and rule overrides
+.env
+.env.*
+!.env.example
+private_rules_local.py
+*credentials*
+*secret*
+
+# Local structures, caches, training runs, and generated artifacts
+data/structures/
+structures/
+graph_cache/
+cache/
+work_descriptor/
+outputs_descriptor/
+outputs/
+runs/
+checkpoints/
+artifacts/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.joblib
+*.npy
+*.npz
+*.log

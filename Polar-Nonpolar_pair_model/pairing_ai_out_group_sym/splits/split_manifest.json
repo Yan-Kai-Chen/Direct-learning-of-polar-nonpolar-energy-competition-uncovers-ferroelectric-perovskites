@@ -1,12 +1,14 @@
 {
-  "PAIR_CSV": "e:\\Chen Yankai\\personal ducuments\\Research\\Research 2_DeepLearning for pervoskite\\Final+step1_cyk\\P_NP_pair.csv",
-  "STRUCT_DIR": "E:\\Chen Yankai\\personal ducuments\\Research\\Research 2_DeepLearning for pervoskite\\Final+step1_cyk\\Structure1",
-  "OUT_DIR": "e:\\Chen Yankai\\personal ducuments\\Research\\Research 2_DeepLearning for pervoskite\\Final+step1_cyk\\pairing_ai_out_group_sym",
-  "GROUP_SPLIT_MODE": "polar",
-  "TEST_SIZE": 0.2,
-  "RANDOM_STATE_BASE": 42,
-  "SELECTED_SEED": 42,
-  "GROUP_NOTE": "group = Polar_mpid (holdout by polar)",
+  "schema_version": 1,
+  "group_split_mode": "polar",
+  "group_column": "Polar_mpid",
+  "test_fraction": 0.2,
+  "random_seed": 42,
+  "train_pairs": "train_pairs_pos.csv",
+  "test_pairs": "test_pairs_pos.csv",
+  "train_polars": "train_polars.txt",
+  "test_polars": "test_polars.txt",
+  "polar_groups": "polar_groups.csv",
   "n_pairs_total": 3519,
   "n_polars_total": 1013,
   "n_polars_train": 810,
@@ -15,5 +17,6 @@
   "n_pairs_test": 776,
   "n_unique_nonpolars_train": 1098,
   "n_unique_nonpolars_test": 469,
-  "nonpolar_overlap_train_test": 321
+  "nonpolar_overlap_train_test": 321,
+  "note": "The tracked split tables are authoritative; no local paths or structure archives are included."
 }
