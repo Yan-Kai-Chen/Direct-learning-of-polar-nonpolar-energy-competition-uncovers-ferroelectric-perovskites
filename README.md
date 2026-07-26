@@ -22,8 +22,8 @@ The release follows the original three-part project layout:
   labels. Code reads this column directly and does not regenerate a split.
 - `row_idx` is an identifier only. It is explicitly excluded from model
   features.
-- The CSV files and split manifests already present in the repository remain
-  unchanged in this release.
+- The three public CSV files remain byte-for-byte unchanged. The pair-split
+  JSON contains only relative public metadata.
 - CIF structure libraries, graph caches, trained weights, prediction exports,
   API credentials, private rules, and machine-specific paths are not included.
 - Different user-created splits can produce different results. They should be
