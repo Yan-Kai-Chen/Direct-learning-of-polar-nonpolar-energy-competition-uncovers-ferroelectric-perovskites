@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-import sys
 import tempfile
 import unittest
 from pathlib import Path
@@ -10,10 +9,7 @@ from pymatgen.core import Lattice, Structure
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DESCRIPTOR_ROOT = ROOT / "Descriptor_engineering"
-sys.path.insert(0, str(DESCRIPTOR_ROOT))
-
-from default_rules import (
+from descriptors.default_rules import (
     A_GEOM_RULES,
     B_GEOM_RULES,
     DERIVED_RULES,
@@ -22,9 +18,9 @@ from default_rules import (
     EXPORT_RULES,
     SITE_RULES,
 )
-from derived_features import run_derived_features_stage
-from public_api import DescriptorPipeline, PipelinePaths
-from site_assignment import run_site_assignment_stage
+from descriptors.derived_features import run_derived_features_stage
+from descriptors.public_api import DescriptorPipeline, PipelinePaths
+from descriptors.site_assignment import run_site_assignment_stage
 
 
 class DescriptorTests(unittest.TestCase):

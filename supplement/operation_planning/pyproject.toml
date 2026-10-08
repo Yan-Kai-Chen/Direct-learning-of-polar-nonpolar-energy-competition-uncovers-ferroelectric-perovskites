@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "polar-operation-planning"
+version = "0.3.1"
+description = "Supplementary language/graph structural-operation planning"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE", "THIRD_PARTY_NOTICES.md"]
+dependencies = [
+    "numpy>=1.26", "scipy>=1.11", "torch>=2.4",
+    "pymatgen>=2024.6", "tqdm>=4.66",
+]
+
+[project.optional-dependencies]
+language = ["accelerate>=1.2", "peft>=0.14", "safetensors>=0.4", "transformers>=4.51"]
+test = ["pytest>=8.2", "jsonschema>=4.22"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["polargen*"]
+exclude = ["tests*", "scripts*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

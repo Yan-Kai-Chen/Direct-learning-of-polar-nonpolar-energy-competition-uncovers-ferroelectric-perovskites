@@ -1,0 +1,23 @@
+{
+  "schema_version": "licensed_crystallographic_source_v1",
+  "source_name": "spglib Wyckoff database",
+  "source_version": "v2.7.0",
+  "source_commit": "12355c77fb7c505a55f52cae36341d73b781a065",
+  "source_repository": "https://github.com/spglib/spglib",
+  "source_file": "database/Wyckoff.csv",
+  "source_file_sha256": "84791b323c325a8d83a1a06e4b98f8dde217285f279581b401addba5f4adc40a",
+  "vendored_file": "Wyckoff.csv",
+  "license_spdx": "BSD-3-Clause",
+  "license_file": "LICENSES/spglib_COPYING.txt",
+  "license_file_sha256": "d87443a20d6e39e14dadb92cce3f876f06fa787b75d917cd12c30533c3195cb4",
+  "redistribution_status": "permitted_with_notice",
+  "coverage": {
+    "hall_settings": 530,
+    "coordinate_kind": "exact_affine_fractional"
+  },
+  "notes": [
+    "The source file and license are vendored without modification.",
+    "This source is the production authority for wyckoff_gauge_v1.",
+    "PyXtal may be used for validation only and is not a production data source."
+  ]
+}

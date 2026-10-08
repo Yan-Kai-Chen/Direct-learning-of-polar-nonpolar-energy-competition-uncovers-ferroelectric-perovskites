@@ -2,9 +2,11 @@
 
 ## Included
 
-This repository tracks only the three public tabular datasets and the public
-pair-split manifests already associated with the project. Their sizes and
-SHA-256 digests are recorded in `DATA_MANIFEST.json`.
+This repository preserves the three public tabular datasets and public
+pair-split manifests already associated with the project. Table sizes and
+SHA-256 digests are recorded in `DATA_MANIFEST.json`. It also includes licensed
+crystallographic lookup tables in `polarevolve_assets/` and explicitly
+synthetic crystallographic examples. These are not private training CIFs.
 
 The tables contain material identifiers, compositions, energy differences, and
 derived scientific descriptors. They do not contain local filesystem paths,

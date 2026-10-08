@@ -1,18 +1,8 @@
-name: polar-nonpolar-learning
+name: polar-phase-competition
 channels:
   - conda-forge
-  - pytorch
 dependencies:
   - python=3.11
   - pip
-  - numpy
-  - pandas
-  - scikit-learn
-  - pyyaml
-  - tqdm
-  - ase
-  - pymatgen
-  - pytorch
   - pip:
-      - joblib>=1.3
-      - torch-geometric>=2.5
+      - -e .[test]

@@ -1,0 +1,59 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "polar-phase-competition"
+version = "1.1.0"
+description = "PolarMatch, PolarComp and PolarEvolve for polar-nonpolar crystal competition"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE", "THIRD_PARTY_NOTICES.md"]
+dependencies = [
+    "ase>=3.22",
+    "joblib>=1.3",
+    "numpy>=1.26",
+    "pandas>=2.0",
+    "pymatgen>=2024.6",
+    "PyYAML>=6.0",
+    "scikit-learn>=1.3",
+    "scipy>=1.11",
+    "spglib>=2.7",
+    "torch>=2.4",
+    "torch-geometric>=2.5",
+    "tqdm>=4.66",
+]
+
+[project.optional-dependencies]
+test = ["build>=1.2", "pytest>=8.2", "jsonschema>=4.22"]
+
+[project.scripts]
+polarmatch-train = "polarmatch.train_retriever:main"
+polarmatch-check-split = "polarmatch.audit:main"
+polarcomp-train = "polarcomp.train:main"
+polarcomp-predict = "polarcomp.predict:main"
+polarcomp-check-data = "polarcomp.audit_training_data:main"
+polar-descriptors = "descriptors.run_descriptor_pipeline:main"
+polarevolve-train = "polarevolve.runtime.train:main"
+polarevolve-sample = "polarevolve.runtime.sample:main"
+polarevolve-channels = "polarevolve.runtime.channels:main"
+
+[project.urls]
+Repository = "https://github.com/Yan-Kai-Chen/Direct-learning-of-polar-nonpolar-energy-competition-uncovers-ferroelectric-perovskites"
+Issues = "https://github.com/Yan-Kai-Chen/Direct-learning-of-polar-nonpolar-energy-competition-uncovers-ferroelectric-perovskites/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["polarmatch*", "polarcomp*", "polarevolve*", "descriptors*"]
+exclude = ["tests*", "supplement*", "examples*"]
+
+[tool.setuptools.package-data]
+polarevolve_assets = [
+    "*.md", "*.txt", "*/*.json", "*/README.md",
+    "*/LICENSES/*.txt", "*/source_snapshot/*",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+

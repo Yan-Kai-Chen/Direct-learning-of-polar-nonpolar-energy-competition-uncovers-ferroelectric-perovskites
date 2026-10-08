@@ -1,107 +1,126 @@
-# Direct learning of polar–nonpolar energy competition uncovers ferroelectric perovskites
+# Direct Learning of Polar-Nonpolar Energy Competition
 
-This repository contains the public, reproducible code and example tables for a
-workflow that learns the energy competition between paired polar and nonpolar
-perovskite structures.
+**PolarMatch establishes phase correspondence. PolarComp learns phase
+competition. PolarEvolve generates target crystal configurations.**
 
-The release follows the original three-part project layout:
+This repository is the unified source release for *Direct learning of
+polar-nonpolar energy competition uncovers ferroelectric perovskites*.
+The three core stages share complete structures and explicit pair records,
+not language-model hidden states.
+
+| Stage | Question | Source |
+|---|---|---|
+| **PolarMatch** | Which polar and nonpolar structures should be paired? | [`polarmatch/`](polarmatch/), [guide](docs/polarmatch.md) |
+| **PolarComp** | What is the energy competition within a structure pair? | [`polarcomp/`](polarcomp/), [guide](docs/polarcomp.md) |
+| **PolarEvolve** | Which crystal configurations can be generated within a chosen symmetry channel? | [`polarevolve/`](polarevolve/), [guide](docs/polarevolve.md) |
+
+PolarMatch supplies candidate correspondences; PolarComp evaluates ordered
+polar/nonpolar pairs; PolarEvolve constructs and refines candidates that can
+be evaluated by PolarComp. This is a modular research workflow, not a claim
+that a pretrained, one-command discovery pipeline is bundled here.
+
+## Repository Layout
 
 ```text
-.
-├── AE3GNN_Build&Train/          angular equivariant pair-energy GNN
-├── Descriptor_engineering/      interpretable pair descriptors
-├── Polar-Nonpolar_pair_model/   polar-holdout pair retrieval
-├── Train_EXAMPLE.csv            fixed public train/val/test table
-├── External_Validation_1.csv    public external-validation table
-└── External_Validation_2.csv    public external-validation table
+polarmatch/                     two-tower pair retrieval and split protocol
+polarcomp/                      angular equivariant pair-energy model
+polarevolve/                    symmetry compilation and ASU score diffusion
+polarevolve_assets/             licensed Hall/Wyckoff/supergroup tables
+descriptors/                    shared interpretable descriptor pipeline
+configs/                       core training configuration examples
+data/polarmatch/splits/         preserved public retrieval split
+examples/                      checkpoint-free crystallographic example
+supplement/operation_planning/  optional language/graph operation planning
+docs/                          architecture, usage and source provenance
+tests/                         focused public-code tests
 ```
-
-## Reproducibility boundary
-
-- `Train_EXAMPLE.csv` contains the fixed public `train`, `val`, and `test`
-  labels. Code reads this column directly and does not regenerate a split.
-- `row_idx` is an identifier only. It is explicitly excluded from model
-  features.
-- The three public CSV files remain byte-for-byte unchanged. The pair-split
-  JSON contains only relative public metadata.
-- CIF structure libraries, graph caches, trained weights, prediction exports,
-  API credentials, private rules, and machine-specific paths are not included.
-- Different user-created splits can produce different results. They should be
-  reported as separate experiments, not compared as exact reproductions of the
-  fixed public split.
-
-See [DATA_AND_PRIVACY.md](DATA_AND_PRIVACY.md) and
-[DATA_MANIFEST.json](DATA_MANIFEST.json) for the public-data contract.
 
 ## Installation
 
-Python 3.10 or 3.11 is recommended.
+Python 3.10 or newer is supported; CI uses Python 3.11. In an environment with
+an appropriate PyTorch build:
 
 ```bash
-conda env create -f environment.yml
-conda activate polar-nonpolar-learning
+python -m pip install -e ".[test]"
 ```
 
-The graph models use PyTorch and PyTorch Geometric. If your CUDA setup requires
-a platform-specific PyTorch wheel, install PyTorch first using the official
-selector and then run:
+For a CPU-only environment, install CPU PyTorch first:
 
 ```bash
-python -m pip install -r requirements.txt
+python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
+python -m pip install -e ".[test]"
 ```
 
-## Quick verification
+A Conda environment is also described in `environment.yml`. All commands below
+run from the repository root after installation. Windows PowerShell supports
+the same single-line commands.
 
-These commands audit the fixed public data and split without training a model:
+## Start Here
+
+These commands require no model checkpoint and do not train a model:
 
 ```bash
-python "AE3GNN_Build&Train/scripts/audit_training_data.py" \
-  --data Train_EXAMPLE.csv
-
-python "Polar-Nonpolar_pair_model/scripts/audit_pairing.py" \
-  --train-pairs "Polar-Nonpolar_pair_model/pairing_ai_out_group_sym/splits/train_pairs_pos.csv" \
-  --test-pairs "Polar-Nonpolar_pair_model/pairing_ai_out_group_sym/splits/test_pairs_pos.csv"
-
+polarcomp-check-data --data Train_EXAMPLE.csv
+polarmatch-check-split --train-pairs data/polarmatch/splits/train_pairs_pos.csv --test-pairs data/polarmatch/splits/test_pairs_pos.csv
+python examples/compile_parent_channels.py
 python -m unittest discover -s tests -v
+python tools/verify_public_data.py
+python tools/check_release.py
 ```
 
-The unit tests use synthetic graphs and small in-memory tables; they do not run
-full training.
+The crystallographic example illustrates parent proposals from a synthetic
+BaTiO3-like polar structure. It is not a generated-material or stability result.
 
-## Workflow
+Training and inference entry points:
 
-1. **Pair retrieval.** Use a polar-structure holdout and a two-tower graph
-   encoder to retrieve candidate nonpolar partners. The optional symmetry score
-   adjustment is implemented explicitly and audited independently.
-2. **Descriptor engineering.** Map composition, local geometry, and
-   electrostatic descriptors from user-supplied structures and element-property
-   data.
-3. **Energy learning.** Build periodic graphs with angular triplets and train
-   the pair-energy model on the fixed split in `Train_EXAMPLE.csv`.
-4. **External evaluation.** Apply the trained model to the two public
-   validation tables with matching CIF structures supplied locally.
+```bash
+polarmatch-train --help
+polarcomp-train --help
+polarcomp-predict --help
+polar-descriptors --help
+polarevolve-channels --help
+polarevolve-train --help
+polarevolve-sample --help
+```
 
-Each module has its own README with exact inputs and commands.
+Full workflows require user-supplied structure collections, data caches and
+trained checkpoints. See the stage guides for the exact boundary.
 
-## Public data summary
+## Public Data
+
+The existing public tables and their fixed splits are preserved byte-for-byte.
 
 | File | Rows | Columns | Role |
 |---|---:|---:|---|
-| `Train_EXAMPLE.csv` | 3,238 | 126 | Fixed public train/val/test table |
+| `Train_EXAMPLE.csv` | 3,238 | 126 | Fixed public train/validation/test table |
 | `External_Validation_1.csv` | 1,130 | 124 | External validation |
 | `External_Validation_2.csv` | 413 | 124 | External validation |
 
-The target for energy regression is `Energy_diff_meV`. A derived binary label,
-when needed for analysis, is `+1` for `abs(Energy_diff_meV) < 70` and `-1`
-otherwise; the label is derived in memory and is not required as an input
-column.
+The regression target is `Energy_diff_meV`; `row_idx` is an identifier, not a
+feature. Normalization is fitted on training rows only. See
+[`DATA_AND_PRIVACY.md`](DATA_AND_PRIVACY.md) and
+[`DATA_MANIFEST.json`](DATA_MANIFEST.json).
 
-## Citation
+## Supplementary Planning
 
-If this repository supports your work, cite the associated manuscript and the
-software metadata in [CITATION.cff](CITATION.cff).
+Useful language/graph operation-ranking components from the earlier PolarGen
+repository are isolated in [`supplement/operation_planning/`](supplement/operation_planning/).
+They are optional and are not imported by the three core packages. The old
+compact reference diffusion and its historical generation metrics are not
+presented as results of the new PolarEvolve backend.
 
-## License
+## Reproducibility and Attribution
 
-Code is released under the [MIT License](LICENSE). Users are responsible for
-checking the terms attached to any structures or elemental data they supply.
+This is a source release: it includes training/sampling code and licensed
+symmetry assets, but no trained weights, private structure corpus, graph cache,
+full candidate ledger or private experiment harness. Structural validity,
+energy prediction and physical validation are distinct stages. See
+[`docs/reproducibility.md`](docs/reproducibility.md).
+
+The old-to-new path map and supplied-code fingerprint are documented in
+[`docs/migration.md`](docs/migration.md) and
+[`docs/source_manifest.json`](docs/source_manifest.json).
+
+Code is released under [MIT](LICENSE); bundled crystallographic data retain
+their own licenses. See [third-party notices](THIRD_PARTY_NOTICES.md).
+Please cite the associated manuscript and [software metadata](CITATION.cff).

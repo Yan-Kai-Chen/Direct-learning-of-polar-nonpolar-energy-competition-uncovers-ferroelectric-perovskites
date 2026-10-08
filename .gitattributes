@@ -1,0 +1,6 @@
+* text=auto eol=lf
+
+# Frozen scientific data and hash-verified crystallographic assets are bytes.
+*.csv -text
+data/polarmatch/splits/** -text
+polarevolve_assets/** -text linguist-generated=true

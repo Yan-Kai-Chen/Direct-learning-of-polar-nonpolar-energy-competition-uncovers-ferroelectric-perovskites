@@ -1,0 +1,21 @@
+{
+  "schema_version": "polargen_operation_fusion_v1",
+  "method": "sum_i weight_i * row_z(branch_scores_i)",
+  "ranking_only": true,
+  "numerical_outputs": "primary_graph_branch",
+  "branches": {
+    "primary_graph": 1.0,
+    "graph_ranker_b": 2.263798713684082,
+    "graph_ranker_c": -4.359739303588867,
+    "graph_ranker_d": 5.076937198638916,
+    "language_prior": 1.3596696853637695
+  },
+  "frozen_validation": {
+    "rows": 323,
+    "top1": 0.5046439628482973,
+    "top3_hit": 0.7925696594427245,
+    "strict_top3_recall": 0.5294117647058822,
+    "exact_top3": 0.07739938080495357,
+    "ndcg_at_3": 0.7880248427391052
+  }
+}

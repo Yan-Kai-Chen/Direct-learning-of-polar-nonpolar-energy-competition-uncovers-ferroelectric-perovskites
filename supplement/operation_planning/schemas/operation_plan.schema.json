@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Yan-Kai-Chen/PolarGen/schemas/operation_plan.schema.json",
+  "title": "PolarGen operation plan",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "request_id", "parent", "selected_operations"],
+  "properties": {
+    "schema_version": {"const": "polargen_operation_plan_v1"},
+    "request_id": {"type": "string", "minLength": 1},
+    "parent": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["structure_id", "formula"],
+      "properties": {
+        "structure_id": {"type": "string", "minLength": 1},
+        "formula": {"type": "string", "minLength": 1}
+      }
+    },
+    "selected_operations": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "operation_id",
+          "name",
+          "rank",
+          "direction",
+          "confidence",
+          "magnitude",
+          "target_interval"
+        ],
+        "properties": {
+          "operation_id": {"type": "string", "pattern": "^OD[0-9]{2}$"},
+          "name": {"type": "string", "minLength": 1},
+          "rank": {"type": "integer", "minimum": 1, "maximum": 3},
+          "direction": {"enum": ["increase", "decrease", "target"]},
+          "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+          "magnitude": {"type": "number"},
+          "target_interval": {
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 2,
+            "items": {"type": "number"}
+          }
+        }
+      }
+    }
+  }
+}
