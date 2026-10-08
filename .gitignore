@@ -42,3 +42,11 @@ artifacts/
 *.npy
 *.npz
 *.log
+
+# Build products and locally supplied diffusion assets
+build/
+dist/
+*.egg-info/
+*.whl
+mp_20_asu_cache*/
+evaluation_panels/

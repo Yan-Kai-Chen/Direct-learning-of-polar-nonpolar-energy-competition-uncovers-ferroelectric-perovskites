@@ -1,0 +1,28 @@
+{
+  "artifacts": {
+    "BUILD_AUDIT.json": "bc87153c38d8aa8b676a7dafff5df6513676dfe6f441905aa679a9c9e058a933",
+    "LICENSES/spglib_COPYING.txt": "d87443a20d6e39e14dadb92cce3f876f06fa787b75d917cd12c30533c3195cb4",
+    "source_snapshot/SOURCE.json": "26d6d8f510ddd38e8d3766125627c5672b17daa3ea2fd99b2c1e18ab3150c165",
+    "source_snapshot/Wyckoff.csv": "84791b323c325a8d83a1a06e4b98f8dde217285f279581b401addba5f4adc40a",
+    "wyckoff_gauges.json": "f829cb4e7be207b0e5fb27bc63af5421a4c5b17bf62d8d35fa03b8bb63269a01"
+  },
+  "builder": "scripts/data/build_wyckoff_gauge_database.py",
+  "builder_sha256": "b9ae406e0cc2e9531204de4d5c8552643e924e688b12f1689d92a418a07e6de4",
+  "capabilities": {
+    "all_hall_settings": true,
+    "canonical_affine_gauges": true,
+    "exact_member_maps": true,
+    "exact_wyckoff_equations": true,
+    "maximal_subgroups": false,
+    "wyckoff_splitting": false
+  },
+  "database_version": "wyckoff_gauge_v1",
+  "generated_utc": "2026-08-01T02:09:49.375226+00:00",
+  "license_spdx": "BSD-3-Clause",
+  "schema_version": "wyckoff_database_provenance_v1",
+  "source_commit": "12355c77fb7c505a55f52cae36341d73b781a065",
+  "source_file_sha256": "84791b323c325a8d83a1a06e4b98f8dde217285f279581b401addba5f4adc40a",
+  "source_name": "spglib Wyckoff database",
+  "source_repository": "https://github.com/spglib/spglib",
+  "source_version": "v2.7.0"
+}

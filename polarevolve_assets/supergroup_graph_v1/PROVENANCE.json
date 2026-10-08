@@ -1,0 +1,31 @@
+{
+ "artifacts": {
+  "LICENSES/spglib_COPYING.txt": "9c4e602ce15bf48206dad105b666ddaeedba747eeda6465807106bc11f4f587f",
+  "README.md": "11e880aa21ce4ef142092763ea42367847791c41e9847eb19d63f0df474d2fd9",
+  "supergroup_graph.json": "72a29384973daecf74b823c4c8e9dec7e8c02341d47a376a3ec5284a2e60f615"
+ },
+ "builder": "DiffCSP_CrossAttention_Qwen_SGEquiDiff/scripts/data/build_supergroup_graph_v2.py",
+ "builder_sha256": "1e6b8d98c01095d9c15ea9f92f4abd29f6d767a177de779c1e3e0a01951aa7a2",
+ "capabilities": {
+  "affine_gauges": false,
+  "cell_transforms": false,
+  "irreps": false,
+  "maximal_subgroups": true,
+  "pointgroup_hierarchy": false,
+  "spacegroup_settings": false,
+  "wyckoff_positions": false,
+  "wyckoff_splitting": false
+ },
+ "database_version": "supergroup_graph_v1",
+ "generated_utc": "2026-09-21T04:21:37+00:00",
+ "schema_version": "supergroup_graph_provenance_v1",
+ "sources": [
+  {
+   "license": "BSD-3-Clause",
+   "name": "spglib",
+   "role": "Hall settings, database operations, subgroup re-identification",
+   "url": "https://github.com/spglib/spglib",
+   "version": "2.7.0"
+  }
+ ]
+}

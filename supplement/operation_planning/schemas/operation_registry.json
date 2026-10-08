@@ -1,0 +1,24 @@
+{
+  "schema_version": "polargen_operation_registry_v2",
+  "description": "The 18 manuscript-aligned structural operations used for public operation planning. Production guidance mappings are not included.",
+  "operations": [
+    {"od_id": "OD01", "name": "B-X distortion contrast", "target_column": "OD01_BX_distortion_contrast", "value_semantics": "signed_change", "site_role": "B"},
+    {"od_id": "OD02", "name": "B-site off-centering contrast", "target_column": "OD02_B_offcentering_contrast", "value_semantics": "signed_change", "site_role": "B"},
+    {"od_id": "OD03", "name": "A-cage anisotropy contrast", "target_column": "OD03_A_cage_anisotropy_contrast", "value_semantics": "signed_change", "site_role": "A"},
+    {"od_id": "OD04", "name": "A-site off-centering contrast", "target_column": "OD04_A_offcentering_contrast", "value_semantics": "signed_change", "site_role": "A"},
+    {"od_id": "OD05", "name": "Polar A-X distortion", "target_column": "OD05_polar_AX_distortion", "value_semantics": "absolute_target", "site_role": "A"},
+    {"od_id": "OD06", "name": "Polar B-X distortion", "target_column": "OD06_polar_BX_distortion", "value_semantics": "absolute_target", "site_role": "B"},
+    {"od_id": "OD07", "name": "B-site coordination angular distortion", "target_column": "OD07_B_coordination_angle_disorder", "value_semantics": "absolute_target", "site_role": "B"},
+    {"od_id": "OD08", "name": "A-site polyhedral volume distortion", "target_column": "OD08_A_polyhedral_volume_distortion", "value_semantics": "signed_change", "site_role": "A"},
+    {"od_id": "OD09", "name": "B-site polyhedral volume distortion", "target_column": "OD09_B_polyhedral_volume_distortion", "value_semantics": "signed_change", "site_role": "B"},
+    {"od_id": "OD10", "name": "Bridge multiplicity heterogeneity", "target_column": "OD10_bridge_multiplicity_heterogeneity", "value_semantics": "signed_change", "site_role": null},
+    {"od_id": "OD11", "name": "Framework strain heterogeneity", "target_column": "OD11_framework_strain_heterogeneity", "value_semantics": "signed_change", "site_role": null},
+    {"od_id": "OD12", "name": "Corner-sharing angular disorder", "target_column": "OD12_corner_sharing_angular_disorder", "value_semantics": "signed_change", "site_role": "B"},
+    {"od_id": "OD13", "name": "B-site local environment heterogeneity", "target_column": "OD13_B_environment_heterogeneity", "value_semantics": "signed_change", "site_role": "B"},
+    {"od_id": "OD17", "name": "Global inversion-breaking proxy", "target_column": "OD17_inversion_breaking", "value_semantics": "absolute_target", "site_role": null},
+    {"od_id": "OD18", "name": "A-B sublattice distortion contrast", "target_column": "OD18_AB_sublattice_distortion_contrast", "value_semantics": "signed_change", "site_role": null},
+    {"od_id": "OD19", "name": "Axial distortion anisotropy", "target_column": "OD19_axial_distortion_anisotropy", "value_semantics": "signed_change", "site_role": "B"},
+    {"od_id": "OD20", "name": "Deformation concentration HHI", "target_column": "OD20_deformation_concentration", "value_semantics": "absolute_target", "site_role": null},
+    {"od_id": "OD22", "name": "Framework orientational misalignment", "target_column": "OD22_framework_orientational_misalignment", "value_semantics": "signed_change", "site_role": null}
+  ]
+}

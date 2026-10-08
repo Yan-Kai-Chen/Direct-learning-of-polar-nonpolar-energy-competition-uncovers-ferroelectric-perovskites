@@ -1,15 +1,11 @@
 from __future__ import annotations
 
-import sys
 import unittest
 from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-AE3GNN_SRC = ROOT / "AE3GNN_Build&Train" / "src"
-sys.path.insert(0, str(AE3GNN_SRC))
-
-from ae3gnn.data import audit_training_table, select_numeric_features
+from polarcomp.data import audit_training_table, select_numeric_features
 
 
 class PublicDataTests(unittest.TestCase):

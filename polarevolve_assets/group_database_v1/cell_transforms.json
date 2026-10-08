@@ -1,0 +1,11665 @@
+{
+  "schema_version": "cell_transforms_v1",
+  "transforms": [
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 1,
+      "setting_id": "hall_1:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 2,
+      "setting_id": "hall_2:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 3,
+      "setting_id": "hall_3:b"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 4,
+      "setting_id": "hall_4:c"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 5,
+      "setting_id": "hall_5:a"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 6,
+      "setting_id": "hall_6:b"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 7,
+      "setting_id": "hall_7:c"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 8,
+      "setting_id": "hall_8:a"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 9,
+      "setting_id": "hall_9:b1"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 10,
+      "setting_id": "hall_10:b2"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 11,
+      "setting_id": "hall_11:b3"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 12,
+      "setting_id": "hall_12:c1"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 13,
+      "setting_id": "hall_13:c2"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 14,
+      "setting_id": "hall_14:c3"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 15,
+      "setting_id": "hall_15:a1"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 16,
+      "setting_id": "hall_16:a2"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 17,
+      "setting_id": "hall_17:a3"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 18,
+      "setting_id": "hall_18:b"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 19,
+      "setting_id": "hall_19:c"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 20,
+      "setting_id": "hall_20:a"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 21,
+      "setting_id": "hall_21:b1"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 22,
+      "setting_id": "hall_22:b2"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 23,
+      "setting_id": "hall_23:b3"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 24,
+      "setting_id": "hall_24:c1"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 25,
+      "setting_id": "hall_25:c2"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 26,
+      "setting_id": "hall_26:c3"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 27,
+      "setting_id": "hall_27:a1"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 28,
+      "setting_id": "hall_28:a2"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 29,
+      "setting_id": "hall_29:a3"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 30,
+      "setting_id": "hall_30:b1"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 31,
+      "setting_id": "hall_31:b2"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 32,
+      "setting_id": "hall_32:b3"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 33,
+      "setting_id": "hall_33:c1"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 34,
+      "setting_id": "hall_34:c2"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 35,
+      "setting_id": "hall_35:c3"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 36,
+      "setting_id": "hall_36:a1"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 37,
+      "setting_id": "hall_37:a2"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 38,
+      "setting_id": "hall_38:a3"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 39,
+      "setting_id": "hall_39:b1"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 40,
+      "setting_id": "hall_40:b2"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 41,
+      "setting_id": "hall_41:b3"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 42,
+      "setting_id": "hall_42:-b1"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 43,
+      "setting_id": "hall_43:-b2"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 44,
+      "setting_id": "hall_44:-b3"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 45,
+      "setting_id": "hall_45:c1"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 46,
+      "setting_id": "hall_46:c2"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 47,
+      "setting_id": "hall_47:c3"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 48,
+      "setting_id": "hall_48:-c1"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 49,
+      "setting_id": "hall_49:-c2"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 50,
+      "setting_id": "hall_50:-c3"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 51,
+      "setting_id": "hall_51:a1"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 52,
+      "setting_id": "hall_52:a2"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 53,
+      "setting_id": "hall_53:a3"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 54,
+      "setting_id": "hall_54:-a1"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 55,
+      "setting_id": "hall_55:-a2"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 56,
+      "setting_id": "hall_56:-a3"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 57,
+      "setting_id": "hall_57:b"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 58,
+      "setting_id": "hall_58:c"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 59,
+      "setting_id": "hall_59:a"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 60,
+      "setting_id": "hall_60:b"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 61,
+      "setting_id": "hall_61:c"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 62,
+      "setting_id": "hall_62:a"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 63,
+      "setting_id": "hall_63:b1"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 64,
+      "setting_id": "hall_64:b2"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 65,
+      "setting_id": "hall_65:b3"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 66,
+      "setting_id": "hall_66:c1"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 67,
+      "setting_id": "hall_67:c2"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 68,
+      "setting_id": "hall_68:c3"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 69,
+      "setting_id": "hall_69:a1"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 70,
+      "setting_id": "hall_70:a2"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 71,
+      "setting_id": "hall_71:a3"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 72,
+      "setting_id": "hall_72:b1"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 73,
+      "setting_id": "hall_73:b2"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 74,
+      "setting_id": "hall_74:b3"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 75,
+      "setting_id": "hall_75:c1"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 76,
+      "setting_id": "hall_76:c2"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 77,
+      "setting_id": "hall_77:c3"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 78,
+      "setting_id": "hall_78:a1"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 79,
+      "setting_id": "hall_79:a2"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 80,
+      "setting_id": "hall_80:a3"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 81,
+      "setting_id": "hall_81:b1"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 82,
+      "setting_id": "hall_82:b2"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 83,
+      "setting_id": "hall_83:b3"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 84,
+      "setting_id": "hall_84:c1"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 85,
+      "setting_id": "hall_85:c2"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 86,
+      "setting_id": "hall_86:c3"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 87,
+      "setting_id": "hall_87:a1"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 88,
+      "setting_id": "hall_88:a2"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 89,
+      "setting_id": "hall_89:a3"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 90,
+      "setting_id": "hall_90:b1"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 91,
+      "setting_id": "hall_91:b2"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 92,
+      "setting_id": "hall_92:b3"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 93,
+      "setting_id": "hall_93:-b1"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 94,
+      "setting_id": "hall_94:-b2"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 95,
+      "setting_id": "hall_95:-b3"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 96,
+      "setting_id": "hall_96:c1"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 97,
+      "setting_id": "hall_97:c2"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 98,
+      "setting_id": "hall_98:c3"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 99,
+      "setting_id": "hall_99:-c1"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 100,
+      "setting_id": "hall_100:-c2"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 101,
+      "setting_id": "hall_101:-c3"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 102,
+      "setting_id": "hall_102:a1"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 103,
+      "setting_id": "hall_103:a2"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 104,
+      "setting_id": "hall_104:a3"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 105,
+      "setting_id": "hall_105:-a1"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 106,
+      "setting_id": "hall_106:-a2"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 107,
+      "setting_id": "hall_107:-a3"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 108,
+      "setting_id": "hall_108:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 109,
+      "setting_id": "hall_109:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 110,
+      "setting_id": "hall_110:cab"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 111,
+      "setting_id": "hall_111:bca"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 112,
+      "setting_id": "hall_112:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 113,
+      "setting_id": "hall_113:cab"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 114,
+      "setting_id": "hall_114:bca"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 115,
+      "setting_id": "hall_115:default"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 116,
+      "setting_id": "hall_116:default"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1/2",
+          "-1/2"
+        ],
+        [
+          "0",
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "hall_number": 117,
+      "setting_id": "hall_117:cab"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "0",
+          "-1/2"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "1/2",
+          "0",
+          "1/2"
+        ]
+      ],
+      "hall_number": 118,
+      "setting_id": "hall_118:bca"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 119,
+      "setting_id": "hall_119:default"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1/2",
+          "-1/2"
+        ],
+        [
+          "0",
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "hall_number": 120,
+      "setting_id": "hall_120:cab"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "0",
+          "-1/2"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "1/2",
+          "0",
+          "1/2"
+        ]
+      ],
+      "hall_number": 121,
+      "setting_id": "hall_121:bca"
+    },
+    {
+      "centering_index": 4,
+      "group_to_primitive": [
+        [
+          "0",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ]
+      ],
+      "hall_number": 122,
+      "setting_id": "hall_122:default"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 123,
+      "setting_id": "hall_123:default"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 124,
+      "setting_id": "hall_124:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 125,
+      "setting_id": "hall_125:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 126,
+      "setting_id": "hall_126:cab"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 127,
+      "setting_id": "hall_127:bca"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 128,
+      "setting_id": "hall_128:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 129,
+      "setting_id": "hall_129:ba-c"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 130,
+      "setting_id": "hall_130:cab"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 131,
+      "setting_id": "hall_131:-cba"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 132,
+      "setting_id": "hall_132:bca"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 133,
+      "setting_id": "hall_133:a-cb"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 134,
+      "setting_id": "hall_134:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 135,
+      "setting_id": "hall_135:cab"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 136,
+      "setting_id": "hall_136:bca"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 137,
+      "setting_id": "hall_137:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 138,
+      "setting_id": "hall_138:ba-c"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 139,
+      "setting_id": "hall_139:cab"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 140,
+      "setting_id": "hall_140:-cba"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 141,
+      "setting_id": "hall_141:bca"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 142,
+      "setting_id": "hall_142:a-cb"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 143,
+      "setting_id": "hall_143:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 144,
+      "setting_id": "hall_144:ba-c"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 145,
+      "setting_id": "hall_145:cab"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 146,
+      "setting_id": "hall_146:-cba"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 147,
+      "setting_id": "hall_147:bca"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 148,
+      "setting_id": "hall_148:a-cb"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 149,
+      "setting_id": "hall_149:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 150,
+      "setting_id": "hall_150:ba-c"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 151,
+      "setting_id": "hall_151:cab"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 152,
+      "setting_id": "hall_152:-cba"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 153,
+      "setting_id": "hall_153:bca"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 154,
+      "setting_id": "hall_154:a-cb"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 155,
+      "setting_id": "hall_155:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 156,
+      "setting_id": "hall_156:ba-c"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 157,
+      "setting_id": "hall_157:cab"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 158,
+      "setting_id": "hall_158:-cba"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 159,
+      "setting_id": "hall_159:bca"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 160,
+      "setting_id": "hall_160:a-cb"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 161,
+      "setting_id": "hall_161:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 162,
+      "setting_id": "hall_162:cab"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 163,
+      "setting_id": "hall_163:bca"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 164,
+      "setting_id": "hall_164:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 165,
+      "setting_id": "hall_165:ba-c"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 166,
+      "setting_id": "hall_166:cab"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 167,
+      "setting_id": "hall_167:-cba"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 168,
+      "setting_id": "hall_168:bca"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 169,
+      "setting_id": "hall_169:a-cb"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 170,
+      "setting_id": "hall_170:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 171,
+      "setting_id": "hall_171:cab"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 172,
+      "setting_id": "hall_172:bca"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 173,
+      "setting_id": "hall_173:default"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1/2",
+          "-1/2"
+        ],
+        [
+          "0",
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "hall_number": 174,
+      "setting_id": "hall_174:cab"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "0",
+          "-1/2"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "1/2",
+          "0",
+          "1/2"
+        ]
+      ],
+      "hall_number": 175,
+      "setting_id": "hall_175:bca"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 176,
+      "setting_id": "hall_176:default"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 177,
+      "setting_id": "hall_177:ba-c"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1/2",
+          "-1/2"
+        ],
+        [
+          "0",
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "hall_number": 178,
+      "setting_id": "hall_178:cab"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1/2",
+          "-1/2"
+        ],
+        [
+          "0",
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "hall_number": 179,
+      "setting_id": "hall_179:-cba"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "0",
+          "-1/2"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "1/2",
+          "0",
+          "1/2"
+        ]
+      ],
+      "hall_number": 180,
+      "setting_id": "hall_180:bca"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "0",
+          "-1/2"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "1/2",
+          "0",
+          "1/2"
+        ]
+      ],
+      "hall_number": 181,
+      "setting_id": "hall_181:a-cb"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 182,
+      "setting_id": "hall_182:default"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1/2",
+          "-1/2"
+        ],
+        [
+          "0",
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "hall_number": 183,
+      "setting_id": "hall_183:cab"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "0",
+          "-1/2"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "1/2",
+          "0",
+          "1/2"
+        ]
+      ],
+      "hall_number": 184,
+      "setting_id": "hall_184:bca"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1/2",
+          "-1/2"
+        ],
+        [
+          "0",
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "hall_number": 185,
+      "setting_id": "hall_185:default"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "0",
+          "-1/2"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "1/2",
+          "0",
+          "1/2"
+        ]
+      ],
+      "hall_number": 186,
+      "setting_id": "hall_186:ba-c"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "0",
+          "-1/2"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "1/2",
+          "0",
+          "1/2"
+        ]
+      ],
+      "hall_number": 187,
+      "setting_id": "hall_187:cab"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 188,
+      "setting_id": "hall_188:-cba"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 189,
+      "setting_id": "hall_189:bca"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1/2",
+          "-1/2"
+        ],
+        [
+          "0",
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "hall_number": 190,
+      "setting_id": "hall_190:a-cb"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1/2",
+          "-1/2"
+        ],
+        [
+          "0",
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "hall_number": 191,
+      "setting_id": "hall_191:default"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "0",
+          "-1/2"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "1/2",
+          "0",
+          "1/2"
+        ]
+      ],
+      "hall_number": 192,
+      "setting_id": "hall_192:ba-c"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "0",
+          "-1/2"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "1/2",
+          "0",
+          "1/2"
+        ]
+      ],
+      "hall_number": 193,
+      "setting_id": "hall_193:cab"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 194,
+      "setting_id": "hall_194:-cba"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 195,
+      "setting_id": "hall_195:bca"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1/2",
+          "-1/2"
+        ],
+        [
+          "0",
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "hall_number": 196,
+      "setting_id": "hall_196:a-cb"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1/2",
+          "-1/2"
+        ],
+        [
+          "0",
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "hall_number": 197,
+      "setting_id": "hall_197:default"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "0",
+          "-1/2"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "1/2",
+          "0",
+          "1/2"
+        ]
+      ],
+      "hall_number": 198,
+      "setting_id": "hall_198:ba-c"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "0",
+          "-1/2"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "1/2",
+          "0",
+          "1/2"
+        ]
+      ],
+      "hall_number": 199,
+      "setting_id": "hall_199:cab"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 200,
+      "setting_id": "hall_200:-cba"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 201,
+      "setting_id": "hall_201:bca"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1/2",
+          "-1/2"
+        ],
+        [
+          "0",
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "hall_number": 202,
+      "setting_id": "hall_202:a-cb"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1/2",
+          "-1/2"
+        ],
+        [
+          "0",
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "hall_number": 203,
+      "setting_id": "hall_203:default"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "0",
+          "-1/2"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "1/2",
+          "0",
+          "1/2"
+        ]
+      ],
+      "hall_number": 204,
+      "setting_id": "hall_204:ba-c"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "0",
+          "-1/2"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "1/2",
+          "0",
+          "1/2"
+        ]
+      ],
+      "hall_number": 205,
+      "setting_id": "hall_205:cab"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 206,
+      "setting_id": "hall_206:-cba"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 207,
+      "setting_id": "hall_207:bca"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1/2",
+          "-1/2"
+        ],
+        [
+          "0",
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "hall_number": 208,
+      "setting_id": "hall_208:a-cb"
+    },
+    {
+      "centering_index": 4,
+      "group_to_primitive": [
+        [
+          "0",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ]
+      ],
+      "hall_number": 209,
+      "setting_id": "hall_209:default"
+    },
+    {
+      "centering_index": 4,
+      "group_to_primitive": [
+        [
+          "0",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ]
+      ],
+      "hall_number": 210,
+      "setting_id": "hall_210:cab"
+    },
+    {
+      "centering_index": 4,
+      "group_to_primitive": [
+        [
+          "0",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ]
+      ],
+      "hall_number": 211,
+      "setting_id": "hall_211:bca"
+    },
+    {
+      "centering_index": 4,
+      "group_to_primitive": [
+        [
+          "0",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ]
+      ],
+      "hall_number": 212,
+      "setting_id": "hall_212:default"
+    },
+    {
+      "centering_index": 4,
+      "group_to_primitive": [
+        [
+          "0",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ]
+      ],
+      "hall_number": 213,
+      "setting_id": "hall_213:cab"
+    },
+    {
+      "centering_index": 4,
+      "group_to_primitive": [
+        [
+          "0",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ]
+      ],
+      "hall_number": 214,
+      "setting_id": "hall_214:bca"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 215,
+      "setting_id": "hall_215:default"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 216,
+      "setting_id": "hall_216:cab"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 217,
+      "setting_id": "hall_217:bca"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 218,
+      "setting_id": "hall_218:default"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 219,
+      "setting_id": "hall_219:cab"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 220,
+      "setting_id": "hall_220:bca"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 221,
+      "setting_id": "hall_221:default"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 222,
+      "setting_id": "hall_222:ba-c"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 223,
+      "setting_id": "hall_223:cab"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 224,
+      "setting_id": "hall_224:-cba"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 225,
+      "setting_id": "hall_225:bca"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 226,
+      "setting_id": "hall_226:a-cb"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 227,
+      "setting_id": "hall_227:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 228,
+      "setting_id": "hall_228:1"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 229,
+      "setting_id": "hall_229:2"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 230,
+      "setting_id": "hall_230:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 231,
+      "setting_id": "hall_231:cab"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 232,
+      "setting_id": "hall_232:bca"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 233,
+      "setting_id": "hall_233:1"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 234,
+      "setting_id": "hall_234:2"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 235,
+      "setting_id": "hall_235:1cab"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 236,
+      "setting_id": "hall_236:2cab"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 237,
+      "setting_id": "hall_237:1bca"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 238,
+      "setting_id": "hall_238:2bca"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 239,
+      "setting_id": "hall_239:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 240,
+      "setting_id": "hall_240:ba-c"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 241,
+      "setting_id": "hall_241:cab"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 242,
+      "setting_id": "hall_242:-cba"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 243,
+      "setting_id": "hall_243:bca"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 244,
+      "setting_id": "hall_244:a-cb"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 245,
+      "setting_id": "hall_245:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 246,
+      "setting_id": "hall_246:ba-c"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 247,
+      "setting_id": "hall_247:cab"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 248,
+      "setting_id": "hall_248:-cba"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 249,
+      "setting_id": "hall_249:bca"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 250,
+      "setting_id": "hall_250:a-cb"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 251,
+      "setting_id": "hall_251:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 252,
+      "setting_id": "hall_252:ba-c"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 253,
+      "setting_id": "hall_253:cab"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 254,
+      "setting_id": "hall_254:-cba"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 255,
+      "setting_id": "hall_255:bca"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 256,
+      "setting_id": "hall_256:a-cb"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 257,
+      "setting_id": "hall_257:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 258,
+      "setting_id": "hall_258:ba-c"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 259,
+      "setting_id": "hall_259:cab"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 260,
+      "setting_id": "hall_260:-cba"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 261,
+      "setting_id": "hall_261:bca"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 262,
+      "setting_id": "hall_262:a-cb"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 263,
+      "setting_id": "hall_263:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 264,
+      "setting_id": "hall_264:cab"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 265,
+      "setting_id": "hall_265:bca"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 266,
+      "setting_id": "hall_266:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 267,
+      "setting_id": "hall_267:cab"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 268,
+      "setting_id": "hall_268:bca"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 269,
+      "setting_id": "hall_269:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 270,
+      "setting_id": "hall_270:ba-c"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 271,
+      "setting_id": "hall_271:cab"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 272,
+      "setting_id": "hall_272:-cba"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 273,
+      "setting_id": "hall_273:bca"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 274,
+      "setting_id": "hall_274:a-cb"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 275,
+      "setting_id": "hall_275:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 276,
+      "setting_id": "hall_276:cab"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 277,
+      "setting_id": "hall_277:bca"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 278,
+      "setting_id": "hall_278:1"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 279,
+      "setting_id": "hall_279:2"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 280,
+      "setting_id": "hall_280:1cab"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 281,
+      "setting_id": "hall_281:2cab"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 282,
+      "setting_id": "hall_282:1bca"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 283,
+      "setting_id": "hall_283:2bca"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 284,
+      "setting_id": "hall_284:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 285,
+      "setting_id": "hall_285:ba-c"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 286,
+      "setting_id": "hall_286:cab"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 287,
+      "setting_id": "hall_287:-cba"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 288,
+      "setting_id": "hall_288:bca"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 289,
+      "setting_id": "hall_289:a-cb"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 290,
+      "setting_id": "hall_290:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 291,
+      "setting_id": "hall_291:ba-c"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 292,
+      "setting_id": "hall_292:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 293,
+      "setting_id": "hall_293:ba-c"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 294,
+      "setting_id": "hall_294:cab"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 295,
+      "setting_id": "hall_295:-cba"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 296,
+      "setting_id": "hall_296:bca"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 297,
+      "setting_id": "hall_297:a-cb"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 298,
+      "setting_id": "hall_298:default"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 299,
+      "setting_id": "hall_299:ba-c"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1/2",
+          "-1/2"
+        ],
+        [
+          "0",
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "hall_number": 300,
+      "setting_id": "hall_300:cab"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1/2",
+          "-1/2"
+        ],
+        [
+          "0",
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "hall_number": 301,
+      "setting_id": "hall_301:-cba"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "0",
+          "-1/2"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "1/2",
+          "0",
+          "1/2"
+        ]
+      ],
+      "hall_number": 302,
+      "setting_id": "hall_302:bca"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "0",
+          "-1/2"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "1/2",
+          "0",
+          "1/2"
+        ]
+      ],
+      "hall_number": 303,
+      "setting_id": "hall_303:a-cb"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 304,
+      "setting_id": "hall_304:default"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 305,
+      "setting_id": "hall_305:ba-c"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1/2",
+          "-1/2"
+        ],
+        [
+          "0",
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "hall_number": 306,
+      "setting_id": "hall_306:cab"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1/2",
+          "-1/2"
+        ],
+        [
+          "0",
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "hall_number": 307,
+      "setting_id": "hall_307:-cba"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "0",
+          "-1/2"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "1/2",
+          "0",
+          "1/2"
+        ]
+      ],
+      "hall_number": 308,
+      "setting_id": "hall_308:bca"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "0",
+          "-1/2"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "1/2",
+          "0",
+          "1/2"
+        ]
+      ],
+      "hall_number": 309,
+      "setting_id": "hall_309:a-cb"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 310,
+      "setting_id": "hall_310:default"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1/2",
+          "-1/2"
+        ],
+        [
+          "0",
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "hall_number": 311,
+      "setting_id": "hall_311:cab"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "0",
+          "-1/2"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "1/2",
+          "0",
+          "1/2"
+        ]
+      ],
+      "hall_number": 312,
+      "setting_id": "hall_312:bca"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 313,
+      "setting_id": "hall_313:default"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1/2",
+          "-1/2"
+        ],
+        [
+          "0",
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "hall_number": 314,
+      "setting_id": "hall_314:cab"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "0",
+          "-1/2"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "1/2",
+          "0",
+          "1/2"
+        ]
+      ],
+      "hall_number": 315,
+      "setting_id": "hall_315:bca"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 316,
+      "setting_id": "hall_316:default"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 317,
+      "setting_id": "hall_317:ba-c"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1/2",
+          "-1/2"
+        ],
+        [
+          "0",
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "hall_number": 318,
+      "setting_id": "hall_318:cab"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1/2",
+          "-1/2"
+        ],
+        [
+          "0",
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "hall_number": 319,
+      "setting_id": "hall_319:-cba"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "0",
+          "-1/2"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "1/2",
+          "0",
+          "1/2"
+        ]
+      ],
+      "hall_number": 320,
+      "setting_id": "hall_320:bca"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "0",
+          "-1/2"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "1/2",
+          "0",
+          "1/2"
+        ]
+      ],
+      "hall_number": 321,
+      "setting_id": "hall_321:a-cb"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 322,
+      "setting_id": "hall_322:1"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 323,
+      "setting_id": "hall_323:2"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 324,
+      "setting_id": "hall_324:1ba-c"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 325,
+      "setting_id": "hall_325:2ba-c"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1/2",
+          "-1/2"
+        ],
+        [
+          "0",
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "hall_number": 326,
+      "setting_id": "hall_326:1cab"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1/2",
+          "-1/2"
+        ],
+        [
+          "0",
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "hall_number": 327,
+      "setting_id": "hall_327:2cab"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1/2",
+          "-1/2"
+        ],
+        [
+          "0",
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "hall_number": 328,
+      "setting_id": "hall_328:1-cba"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1/2",
+          "-1/2"
+        ],
+        [
+          "0",
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "hall_number": 329,
+      "setting_id": "hall_329:2-cba"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "0",
+          "-1/2"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "1/2",
+          "0",
+          "1/2"
+        ]
+      ],
+      "hall_number": 330,
+      "setting_id": "hall_330:1bca"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "0",
+          "-1/2"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "1/2",
+          "0",
+          "1/2"
+        ]
+      ],
+      "hall_number": 331,
+      "setting_id": "hall_331:2bca"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "0",
+          "-1/2"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "1/2",
+          "0",
+          "1/2"
+        ]
+      ],
+      "hall_number": 332,
+      "setting_id": "hall_332:1a-cb"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "1/2",
+          "0",
+          "-1/2"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "1/2",
+          "0",
+          "1/2"
+        ]
+      ],
+      "hall_number": 333,
+      "setting_id": "hall_333:2a-cb"
+    },
+    {
+      "centering_index": 4,
+      "group_to_primitive": [
+        [
+          "0",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ]
+      ],
+      "hall_number": 334,
+      "setting_id": "hall_334:default"
+    },
+    {
+      "centering_index": 4,
+      "group_to_primitive": [
+        [
+          "0",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ]
+      ],
+      "hall_number": 335,
+      "setting_id": "hall_335:1"
+    },
+    {
+      "centering_index": 4,
+      "group_to_primitive": [
+        [
+          "0",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ]
+      ],
+      "hall_number": 336,
+      "setting_id": "hall_336:2"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 337,
+      "setting_id": "hall_337:default"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 338,
+      "setting_id": "hall_338:default"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 339,
+      "setting_id": "hall_339:cab"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 340,
+      "setting_id": "hall_340:bca"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 341,
+      "setting_id": "hall_341:default"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 342,
+      "setting_id": "hall_342:ba-c"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 343,
+      "setting_id": "hall_343:default"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 344,
+      "setting_id": "hall_344:ba-c"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 345,
+      "setting_id": "hall_345:cab"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 346,
+      "setting_id": "hall_346:-cba"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 347,
+      "setting_id": "hall_347:bca"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 348,
+      "setting_id": "hall_348:a-cb"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 349,
+      "setting_id": "hall_349:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 350,
+      "setting_id": "hall_350:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 351,
+      "setting_id": "hall_351:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 352,
+      "setting_id": "hall_352:default"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 353,
+      "setting_id": "hall_353:default"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 354,
+      "setting_id": "hall_354:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 355,
+      "setting_id": "hall_355:default"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 356,
+      "setting_id": "hall_356:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 357,
+      "setting_id": "hall_357:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 358,
+      "setting_id": "hall_358:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 359,
+      "setting_id": "hall_359:1"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 360,
+      "setting_id": "hall_360:2"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 361,
+      "setting_id": "hall_361:1"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 362,
+      "setting_id": "hall_362:2"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 363,
+      "setting_id": "hall_363:default"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 364,
+      "setting_id": "hall_364:1"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 365,
+      "setting_id": "hall_365:2"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 366,
+      "setting_id": "hall_366:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 367,
+      "setting_id": "hall_367:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 368,
+      "setting_id": "hall_368:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 369,
+      "setting_id": "hall_369:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 370,
+      "setting_id": "hall_370:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 371,
+      "setting_id": "hall_371:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 372,
+      "setting_id": "hall_372:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 373,
+      "setting_id": "hall_373:default"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 374,
+      "setting_id": "hall_374:default"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 375,
+      "setting_id": "hall_375:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 376,
+      "setting_id": "hall_376:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 377,
+      "setting_id": "hall_377:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 378,
+      "setting_id": "hall_378:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 379,
+      "setting_id": "hall_379:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 380,
+      "setting_id": "hall_380:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 381,
+      "setting_id": "hall_381:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 382,
+      "setting_id": "hall_382:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 383,
+      "setting_id": "hall_383:default"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 384,
+      "setting_id": "hall_384:default"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 385,
+      "setting_id": "hall_385:default"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 386,
+      "setting_id": "hall_386:default"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 387,
+      "setting_id": "hall_387:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 388,
+      "setting_id": "hall_388:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 389,
+      "setting_id": "hall_389:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 390,
+      "setting_id": "hall_390:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 391,
+      "setting_id": "hall_391:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 392,
+      "setting_id": "hall_392:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 393,
+      "setting_id": "hall_393:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 394,
+      "setting_id": "hall_394:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 395,
+      "setting_id": "hall_395:default"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 396,
+      "setting_id": "hall_396:default"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 397,
+      "setting_id": "hall_397:default"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 398,
+      "setting_id": "hall_398:default"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 399,
+      "setting_id": "hall_399:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 400,
+      "setting_id": "hall_400:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 401,
+      "setting_id": "hall_401:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 402,
+      "setting_id": "hall_402:1"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 403,
+      "setting_id": "hall_403:2"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 404,
+      "setting_id": "hall_404:1"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 405,
+      "setting_id": "hall_405:2"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 406,
+      "setting_id": "hall_406:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 407,
+      "setting_id": "hall_407:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 408,
+      "setting_id": "hall_408:1"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 409,
+      "setting_id": "hall_409:2"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 410,
+      "setting_id": "hall_410:1"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 411,
+      "setting_id": "hall_411:2"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 412,
+      "setting_id": "hall_412:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 413,
+      "setting_id": "hall_413:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 414,
+      "setting_id": "hall_414:1"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 415,
+      "setting_id": "hall_415:2"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 416,
+      "setting_id": "hall_416:1"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 417,
+      "setting_id": "hall_417:2"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 418,
+      "setting_id": "hall_418:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 419,
+      "setting_id": "hall_419:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 420,
+      "setting_id": "hall_420:1"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 421,
+      "setting_id": "hall_421:2"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 422,
+      "setting_id": "hall_422:1"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 423,
+      "setting_id": "hall_423:2"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 424,
+      "setting_id": "hall_424:default"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 425,
+      "setting_id": "hall_425:default"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 426,
+      "setting_id": "hall_426:1"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 427,
+      "setting_id": "hall_427:2"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 428,
+      "setting_id": "hall_428:1"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 429,
+      "setting_id": "hall_429:2"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 430,
+      "setting_id": "hall_430:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 431,
+      "setting_id": "hall_431:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 432,
+      "setting_id": "hall_432:default"
+    },
+    {
+      "centering_index": 3,
+      "group_to_primitive": [
+        [
+          "2/3",
+          "-1/3",
+          "-1/3"
+        ],
+        [
+          "1/3",
+          "1/3",
+          "-2/3"
+        ],
+        [
+          "1/3",
+          "1/3",
+          "1/3"
+        ]
+      ],
+      "hall_number": 433,
+      "setting_id": "hall_433:H"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 434,
+      "setting_id": "hall_434:R"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 435,
+      "setting_id": "hall_435:default"
+    },
+    {
+      "centering_index": 3,
+      "group_to_primitive": [
+        [
+          "2/3",
+          "-1/3",
+          "-1/3"
+        ],
+        [
+          "1/3",
+          "1/3",
+          "-2/3"
+        ],
+        [
+          "1/3",
+          "1/3",
+          "1/3"
+        ]
+      ],
+      "hall_number": 436,
+      "setting_id": "hall_436:H"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 437,
+      "setting_id": "hall_437:R"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 438,
+      "setting_id": "hall_438:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 439,
+      "setting_id": "hall_439:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 440,
+      "setting_id": "hall_440:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 441,
+      "setting_id": "hall_441:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 442,
+      "setting_id": "hall_442:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 443,
+      "setting_id": "hall_443:default"
+    },
+    {
+      "centering_index": 3,
+      "group_to_primitive": [
+        [
+          "2/3",
+          "-1/3",
+          "-1/3"
+        ],
+        [
+          "1/3",
+          "1/3",
+          "-2/3"
+        ],
+        [
+          "1/3",
+          "1/3",
+          "1/3"
+        ]
+      ],
+      "hall_number": 444,
+      "setting_id": "hall_444:H"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 445,
+      "setting_id": "hall_445:R"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 446,
+      "setting_id": "hall_446:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 447,
+      "setting_id": "hall_447:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 448,
+      "setting_id": "hall_448:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 449,
+      "setting_id": "hall_449:default"
+    },
+    {
+      "centering_index": 3,
+      "group_to_primitive": [
+        [
+          "2/3",
+          "-1/3",
+          "-1/3"
+        ],
+        [
+          "1/3",
+          "1/3",
+          "-2/3"
+        ],
+        [
+          "1/3",
+          "1/3",
+          "1/3"
+        ]
+      ],
+      "hall_number": 450,
+      "setting_id": "hall_450:H"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 451,
+      "setting_id": "hall_451:R"
+    },
+    {
+      "centering_index": 3,
+      "group_to_primitive": [
+        [
+          "2/3",
+          "-1/3",
+          "-1/3"
+        ],
+        [
+          "1/3",
+          "1/3",
+          "-2/3"
+        ],
+        [
+          "1/3",
+          "1/3",
+          "1/3"
+        ]
+      ],
+      "hall_number": 452,
+      "setting_id": "hall_452:H"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 453,
+      "setting_id": "hall_453:R"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 454,
+      "setting_id": "hall_454:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 455,
+      "setting_id": "hall_455:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 456,
+      "setting_id": "hall_456:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 457,
+      "setting_id": "hall_457:default"
+    },
+    {
+      "centering_index": 3,
+      "group_to_primitive": [
+        [
+          "2/3",
+          "-1/3",
+          "-1/3"
+        ],
+        [
+          "1/3",
+          "1/3",
+          "-2/3"
+        ],
+        [
+          "1/3",
+          "1/3",
+          "1/3"
+        ]
+      ],
+      "hall_number": 458,
+      "setting_id": "hall_458:H"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 459,
+      "setting_id": "hall_459:R"
+    },
+    {
+      "centering_index": 3,
+      "group_to_primitive": [
+        [
+          "2/3",
+          "-1/3",
+          "-1/3"
+        ],
+        [
+          "1/3",
+          "1/3",
+          "-2/3"
+        ],
+        [
+          "1/3",
+          "1/3",
+          "1/3"
+        ]
+      ],
+      "hall_number": 460,
+      "setting_id": "hall_460:H"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 461,
+      "setting_id": "hall_461:R"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 462,
+      "setting_id": "hall_462:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 463,
+      "setting_id": "hall_463:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 464,
+      "setting_id": "hall_464:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 465,
+      "setting_id": "hall_465:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 466,
+      "setting_id": "hall_466:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 467,
+      "setting_id": "hall_467:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 468,
+      "setting_id": "hall_468:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 469,
+      "setting_id": "hall_469:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 470,
+      "setting_id": "hall_470:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 471,
+      "setting_id": "hall_471:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 472,
+      "setting_id": "hall_472:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 473,
+      "setting_id": "hall_473:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 474,
+      "setting_id": "hall_474:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 475,
+      "setting_id": "hall_475:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 476,
+      "setting_id": "hall_476:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 477,
+      "setting_id": "hall_477:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 478,
+      "setting_id": "hall_478:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 479,
+      "setting_id": "hall_479:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 480,
+      "setting_id": "hall_480:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 481,
+      "setting_id": "hall_481:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 482,
+      "setting_id": "hall_482:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 483,
+      "setting_id": "hall_483:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 484,
+      "setting_id": "hall_484:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 485,
+      "setting_id": "hall_485:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 486,
+      "setting_id": "hall_486:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 487,
+      "setting_id": "hall_487:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 488,
+      "setting_id": "hall_488:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 489,
+      "setting_id": "hall_489:default"
+    },
+    {
+      "centering_index": 4,
+      "group_to_primitive": [
+        [
+          "0",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ]
+      ],
+      "hall_number": 490,
+      "setting_id": "hall_490:default"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 491,
+      "setting_id": "hall_491:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 492,
+      "setting_id": "hall_492:default"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 493,
+      "setting_id": "hall_493:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 494,
+      "setting_id": "hall_494:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 495,
+      "setting_id": "hall_495:1"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 496,
+      "setting_id": "hall_496:2"
+    },
+    {
+      "centering_index": 4,
+      "group_to_primitive": [
+        [
+          "0",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ]
+      ],
+      "hall_number": 497,
+      "setting_id": "hall_497:default"
+    },
+    {
+      "centering_index": 4,
+      "group_to_primitive": [
+        [
+          "0",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ]
+      ],
+      "hall_number": 498,
+      "setting_id": "hall_498:1"
+    },
+    {
+      "centering_index": 4,
+      "group_to_primitive": [
+        [
+          "0",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ]
+      ],
+      "hall_number": 499,
+      "setting_id": "hall_499:2"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 500,
+      "setting_id": "hall_500:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 501,
+      "setting_id": "hall_501:default"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 502,
+      "setting_id": "hall_502:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 503,
+      "setting_id": "hall_503:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 504,
+      "setting_id": "hall_504:default"
+    },
+    {
+      "centering_index": 4,
+      "group_to_primitive": [
+        [
+          "0",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ]
+      ],
+      "hall_number": 505,
+      "setting_id": "hall_505:default"
+    },
+    {
+      "centering_index": 4,
+      "group_to_primitive": [
+        [
+          "0",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ]
+      ],
+      "hall_number": 506,
+      "setting_id": "hall_506:default"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 507,
+      "setting_id": "hall_507:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 508,
+      "setting_id": "hall_508:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 509,
+      "setting_id": "hall_509:default"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 510,
+      "setting_id": "hall_510:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 511,
+      "setting_id": "hall_511:default"
+    },
+    {
+      "centering_index": 4,
+      "group_to_primitive": [
+        [
+          "0",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ]
+      ],
+      "hall_number": 512,
+      "setting_id": "hall_512:default"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 513,
+      "setting_id": "hall_513:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 514,
+      "setting_id": "hall_514:default"
+    },
+    {
+      "centering_index": 4,
+      "group_to_primitive": [
+        [
+          "0",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ]
+      ],
+      "hall_number": 515,
+      "setting_id": "hall_515:default"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 516,
+      "setting_id": "hall_516:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 517,
+      "setting_id": "hall_517:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 518,
+      "setting_id": "hall_518:1"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 519,
+      "setting_id": "hall_519:2"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 520,
+      "setting_id": "hall_520:default"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 521,
+      "setting_id": "hall_521:1"
+    },
+    {
+      "centering_index": 1,
+      "group_to_primitive": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "hall_number": 522,
+      "setting_id": "hall_522:2"
+    },
+    {
+      "centering_index": 4,
+      "group_to_primitive": [
+        [
+          "0",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ]
+      ],
+      "hall_number": 523,
+      "setting_id": "hall_523:default"
+    },
+    {
+      "centering_index": 4,
+      "group_to_primitive": [
+        [
+          "0",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ]
+      ],
+      "hall_number": 524,
+      "setting_id": "hall_524:default"
+    },
+    {
+      "centering_index": 4,
+      "group_to_primitive": [
+        [
+          "0",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ]
+      ],
+      "hall_number": 525,
+      "setting_id": "hall_525:1"
+    },
+    {
+      "centering_index": 4,
+      "group_to_primitive": [
+        [
+          "0",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ]
+      ],
+      "hall_number": 526,
+      "setting_id": "hall_526:2"
+    },
+    {
+      "centering_index": 4,
+      "group_to_primitive": [
+        [
+          "0",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ]
+      ],
+      "hall_number": 527,
+      "setting_id": "hall_527:1"
+    },
+    {
+      "centering_index": 4,
+      "group_to_primitive": [
+        [
+          "0",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ]
+      ],
+      "hall_number": 528,
+      "setting_id": "hall_528:2"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 529,
+      "setting_id": "hall_529:default"
+    },
+    {
+      "centering_index": 2,
+      "group_to_primitive": [
+        [
+          "-1/2",
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "-1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "hall_number": 530,
+      "setting_id": "hall_530:default"
+    }
+  ]
+}

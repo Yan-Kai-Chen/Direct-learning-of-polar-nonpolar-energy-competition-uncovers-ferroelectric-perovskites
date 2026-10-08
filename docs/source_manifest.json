@@ -1,0 +1,572 @@
+{
+  "schema_version": "three_stage_source_manifest_v1",
+  "main_repository_base": "4be2934ed1729e35cdf85a2428f7c1130a53167c",
+  "supplementary_planner_commit": "cf613b495938dc25053c5c1477125e5aafa04e76",
+  "supplied_diffusion_archive_sha256": "108d0f2bef7a14253389882c5568f1c00e413f84272228fdeda34761db2b1568",
+  "diffusion_files": [
+    {
+      "source": "PolarGen/assets/symmetry/group_database_v1/cell_transforms.json",
+      "destination": "polarevolve_assets/group_database_v1/cell_transforms.json",
+      "source_sha256": "d8e98a8d6448f1b549c60da6cdf324db19f2b5142e83f5000f1b3b88c6b69509",
+      "published_sha256": "d8e98a8d6448f1b549c60da6cdf324db19f2b5142e83f5000f1b3b88c6b69509"
+    },
+    {
+      "source": "PolarGen/assets/symmetry/group_database_v1/LICENSES/spglib_COPYING.txt",
+      "destination": "polarevolve_assets/group_database_v1/LICENSES/spglib_COPYING.txt",
+      "source_sha256": "9c4e602ce15bf48206dad105b666ddaeedba747eeda6465807106bc11f4f587f",
+      "published_sha256": "9c4e602ce15bf48206dad105b666ddaeedba747eeda6465807106bc11f4f587f"
+    },
+    {
+      "source": "PolarGen/assets/symmetry/group_database_v1/pointgroup_hierarchy.json",
+      "destination": "polarevolve_assets/group_database_v1/pointgroup_hierarchy.json",
+      "source_sha256": "31379e6e14b4a043e9d4c3fdc83c024922202ab87d8e3011499768ad121f7e2e",
+      "published_sha256": "31379e6e14b4a043e9d4c3fdc83c024922202ab87d8e3011499768ad121f7e2e"
+    },
+    {
+      "source": "PolarGen/assets/symmetry/group_database_v1/PROVENANCE.json",
+      "destination": "polarevolve_assets/group_database_v1/PROVENANCE.json",
+      "source_sha256": "4ac68261b421e35318077c3e32191c2e06eeb68ea56eb52d92ec246c52df5d1f",
+      "published_sha256": "4ac68261b421e35318077c3e32191c2e06eeb68ea56eb52d92ec246c52df5d1f"
+    },
+    {
+      "source": "PolarGen/assets/symmetry/group_database_v1/README.md",
+      "destination": "polarevolve_assets/group_database_v1/README.md",
+      "source_sha256": "5c0e2753e6bc9a443d82ea2f39241260f7bc7169a38642890ab0e5c48c05c24f",
+      "published_sha256": "5c0e2753e6bc9a443d82ea2f39241260f7bc7169a38642890ab0e5c48c05c24f"
+    },
+    {
+      "source": "PolarGen/assets/symmetry/group_database_v1/spacegroup_settings.json",
+      "destination": "polarevolve_assets/group_database_v1/spacegroup_settings.json",
+      "source_sha256": "473d4ab72ff82b892a7213a7ede7e53e170567f8f614e7eb3c26ac5f9abad3a4",
+      "published_sha256": "473d4ab72ff82b892a7213a7ede7e53e170567f8f614e7eb3c26ac5f9abad3a4"
+    },
+    {
+      "source": "PolarGen/assets/symmetry/README.md",
+      "destination": "polarevolve_assets/README.md",
+      "source_sha256": "239fb762dbf1af4f517c28fb52a9c70558482837ae352ff7e3df31dc399d37db",
+      "published_sha256": "239fb762dbf1af4f517c28fb52a9c70558482837ae352ff7e3df31dc399d37db"
+    },
+    {
+      "source": "PolarGen/assets/symmetry/SHA256SUMS.txt",
+      "destination": "polarevolve_assets/SHA256SUMS.txt",
+      "source_sha256": "8ecb169be8dabc71cf8a79aa06e59cc917a951d9c1b4cf1cae2e9d0db36d1749",
+      "published_sha256": "8ecb169be8dabc71cf8a79aa06e59cc917a951d9c1b4cf1cae2e9d0db36d1749"
+    },
+    {
+      "source": "PolarGen/assets/symmetry/supergroup_graph_v1/LICENSES/spglib_COPYING.txt",
+      "destination": "polarevolve_assets/supergroup_graph_v1/LICENSES/spglib_COPYING.txt",
+      "source_sha256": "9c4e602ce15bf48206dad105b666ddaeedba747eeda6465807106bc11f4f587f",
+      "published_sha256": "9c4e602ce15bf48206dad105b666ddaeedba747eeda6465807106bc11f4f587f"
+    },
+    {
+      "source": "PolarGen/assets/symmetry/supergroup_graph_v1/PROVENANCE.json",
+      "destination": "polarevolve_assets/supergroup_graph_v1/PROVENANCE.json",
+      "source_sha256": "8bf3902554b8e48e8116249b14b94dd3682160a87c5b4be4d6ba11555431eca1",
+      "published_sha256": "8bf3902554b8e48e8116249b14b94dd3682160a87c5b4be4d6ba11555431eca1"
+    },
+    {
+      "source": "PolarGen/assets/symmetry/supergroup_graph_v1/README.md",
+      "destination": "polarevolve_assets/supergroup_graph_v1/README.md",
+      "source_sha256": "11e880aa21ce4ef142092763ea42367847791c41e9847eb19d63f0df474d2fd9",
+      "published_sha256": "11e880aa21ce4ef142092763ea42367847791c41e9847eb19d63f0df474d2fd9"
+    },
+    {
+      "source": "PolarGen/assets/symmetry/supergroup_graph_v1/supergroup_graph.json",
+      "destination": "polarevolve_assets/supergroup_graph_v1/supergroup_graph.json",
+      "source_sha256": "72a29384973daecf74b823c4c8e9dec7e8c02341d47a376a3ec5284a2e60f615",
+      "published_sha256": "72a29384973daecf74b823c4c8e9dec7e8c02341d47a376a3ec5284a2e60f615"
+    },
+    {
+      "source": "PolarGen/assets/symmetry/wyckoff_gauge_v1/BUILD_AUDIT.json",
+      "destination": "polarevolve_assets/wyckoff_gauge_v1/BUILD_AUDIT.json",
+      "source_sha256": "bc87153c38d8aa8b676a7dafff5df6513676dfe6f441905aa679a9c9e058a933",
+      "published_sha256": "bc87153c38d8aa8b676a7dafff5df6513676dfe6f441905aa679a9c9e058a933"
+    },
+    {
+      "source": "PolarGen/assets/symmetry/wyckoff_gauge_v1/LICENSES/spglib_COPYING.txt",
+      "destination": "polarevolve_assets/wyckoff_gauge_v1/LICENSES/spglib_COPYING.txt",
+      "source_sha256": "d87443a20d6e39e14dadb92cce3f876f06fa787b75d917cd12c30533c3195cb4",
+      "published_sha256": "d87443a20d6e39e14dadb92cce3f876f06fa787b75d917cd12c30533c3195cb4"
+    },
+    {
+      "source": "PolarGen/assets/symmetry/wyckoff_gauge_v1/PROVENANCE.json",
+      "destination": "polarevolve_assets/wyckoff_gauge_v1/PROVENANCE.json",
+      "source_sha256": "1355e14735851b28d4f7ba0d78fbd2fae6ea3def4d386156aa666b8d64a045f8",
+      "published_sha256": "1355e14735851b28d4f7ba0d78fbd2fae6ea3def4d386156aa666b8d64a045f8"
+    },
+    {
+      "source": "PolarGen/assets/symmetry/wyckoff_gauge_v1/README.md",
+      "destination": "polarevolve_assets/wyckoff_gauge_v1/README.md",
+      "source_sha256": "37c3d168a0a812157d148830a0ae8bcf1483fb88eb8999bcc80ffa696f5703b3",
+      "published_sha256": "37c3d168a0a812157d148830a0ae8bcf1483fb88eb8999bcc80ffa696f5703b3"
+    },
+    {
+      "source": "PolarGen/assets/symmetry/wyckoff_gauge_v1/source_snapshot/SOURCE.json",
+      "destination": "polarevolve_assets/wyckoff_gauge_v1/source_snapshot/SOURCE.json",
+      "source_sha256": "26d6d8f510ddd38e8d3766125627c5672b17daa3ea2fd99b2c1e18ab3150c165",
+      "published_sha256": "26d6d8f510ddd38e8d3766125627c5672b17daa3ea2fd99b2c1e18ab3150c165"
+    },
+    {
+      "source": "PolarGen/assets/symmetry/wyckoff_gauge_v1/source_snapshot/Wyckoff.csv",
+      "destination": "polarevolve_assets/wyckoff_gauge_v1/source_snapshot/Wyckoff.csv",
+      "source_sha256": "84791b323c325a8d83a1a06e4b98f8dde217285f279581b401addba5f4adc40a",
+      "published_sha256": "84791b323c325a8d83a1a06e4b98f8dde217285f279581b401addba5f4adc40a"
+    },
+    {
+      "source": "PolarGen/assets/symmetry/wyckoff_gauge_v1/wyckoff_gauges.json",
+      "destination": "polarevolve_assets/wyckoff_gauge_v1/wyckoff_gauges.json",
+      "source_sha256": "f829cb4e7be207b0e5fb27bc63af5421a4c5b17bf62d8d35fa03b8bb63269a01",
+      "published_sha256": "f829cb4e7be207b0e5fb27bc63af5421a4c5b17bf62d8d35fa03b8bb63269a01"
+    },
+    {
+      "source": "PolarGen/examples/sample_ferroelectric.py",
+      "destination": "examples/compile_parent_channels.py",
+      "source_sha256": "579b71fbf1c5431bdc50bcde89cd48fce1cb08d137d9d0da8649fc7353bf4d66",
+      "published_sha256": "8e1e5a1e2953b548ffd1804c71d61353f8a046b98102c65841837109a6bec884"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/crystal/asu.py",
+      "destination": "polarevolve/crystal/asu.py",
+      "source_sha256": "c938c4880cfde293095e0e302e76493c852f8ab73625a732d624b935c4d529ef",
+      "published_sha256": "b2ee74703c8c56481f4e521375fe0aaf507c81a117155ba8fcf3e8b3939b8b0e"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/crystal/contracts.py",
+      "destination": "polarevolve/crystal/contracts.py",
+      "source_sha256": "a4a1a037bed60125a93c9d9fc14cead4b96b8b3e67c6188471f8b42318b70f3e",
+      "published_sha256": "b2de33adfc93081e77fcdad16eaf1ce9ccd31c59a4e51be022164efc9cd200c4"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/crystal/geometry.py",
+      "destination": "polarevolve/crystal/geometry.py",
+      "source_sha256": "d165ad0e955ab94e4ad2fcc3d4563d1b5899aa784051475479325db12bdd3b60",
+      "published_sha256": "1ac811fbd69f2ae8395f3b54732817a0595f0a36ceecc4b710256ede35c55de5"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/crystal/integer_lattice.py",
+      "destination": "polarevolve/crystal/integer_lattice.py",
+      "source_sha256": "887edd123eca89fb7c2087bb301b9e5bc102ec790215c4f20d7fbe4dad83c51e",
+      "published_sha256": "887edd123eca89fb7c2087bb301b9e5bc102ec790215c4f20d7fbe4dad83c51e"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/crystal/io.py",
+      "destination": "polarevolve/crystal/io.py",
+      "source_sha256": "1881b70f99a69369fbbae2761b73280bcab0b82d578922fb40cf9c1d07bb76f9",
+      "published_sha256": "1881b70f99a69369fbbae2761b73280bcab0b82d578922fb40cf9c1d07bb76f9"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/crystal/lattice.py",
+      "destination": "polarevolve/crystal/lattice.py",
+      "source_sha256": "5a28ee2d194174d000c28bc2d0417916a5bbb0ac90e9ddc808e48243103df517",
+      "published_sha256": "355a566ac374632be8bc3b83a3dc8f87d26630d84b3f333dcbbd76be1971aee7"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/crystal/modes.py",
+      "destination": "polarevolve/crystal/modes.py",
+      "source_sha256": "ce0c6e7780af310395aec2aa485ec2199e621dc2f1894b54fd2d6724a757425d",
+      "published_sha256": "954e85dfdf4c0a244d7b8fea4fbc5985b97725c2a8a494750e94824bb86d29b5"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/crystal/parent.py",
+      "destination": "polarevolve/crystal/parent.py",
+      "source_sha256": "fd6dc21c765bc407cc23786682e38dc893a3e3db95e98c198f77c4ef11133310",
+      "published_sha256": "88dcd4f911eefc03f3cd67ea93e44b4410c171874013ff223ddf8f39dc1cd0ef"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/crystal/periodic.py",
+      "destination": "polarevolve/crystal/periodic.py",
+      "source_sha256": "7c10e50e657ec6f39ced2721c20f5b2ee57805c2258cf2269a3606288737d7b4",
+      "published_sha256": "7c10e50e657ec6f39ced2721c20f5b2ee57805c2258cf2269a3606288737d7b4"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/crystal/program.py",
+      "destination": "polarevolve/crystal/program.py",
+      "source_sha256": "5388e6c7bb7c28fe6d1aa629e8e005e3bc74754f7f6c13f772c6fe003b2434c8",
+      "published_sha256": "f4516b4d31991857eb16c56ef990ca6333f08780548f615681c719a0ee687e65"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/crystal/search.py",
+      "destination": "polarevolve/crystal/search.py",
+      "source_sha256": "6dd3109482698d21291c99d5d9a696e17d6acc35cee9c83c472453877513fc04",
+      "published_sha256": "2c9e0aa99ee0efe349363e0a7350b9355860bb3bfe84e40d120f0e06da2926b2"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/crystal/state.py",
+      "destination": "polarevolve/crystal/state.py",
+      "source_sha256": "9fadbf649c557df0ab783d525dfbbab388bb618dcd36ea52c6d36ad2d1baa6a9",
+      "published_sha256": "7b330e89626c00922eefb9bb69cf2d01ce2cdea06e52937c3ff335a5f988237c"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/crystal/supergroup.py",
+      "destination": "polarevolve/crystal/supergroup.py",
+      "source_sha256": "00b4e03a24e1acde71418811853bc59969c3a55c92d12430654db61183588ae1",
+      "published_sha256": "38656b1ad9f78fe6d59bd09fa32ed9ce17e8950d58c9b6b44bcccda76a8b9f6d"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/crystal/symmetry.py",
+      "destination": "polarevolve/crystal/symmetry.py",
+      "source_sha256": "9495af6e19c5974a244f133745720792aac6a6f5b78427386663412282f10596",
+      "published_sha256": "df4d2bd8174e46be434b9cbb47859763a40a13b15184b1589254c2ea2e525628"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/crystal/__init__.py",
+      "destination": "polarevolve/crystal/__init__.py",
+      "source_sha256": "c3c6e01f3ec7398c6e086ff54f06f9d4e006be605045c1ebe39b8e6de6ca60b0",
+      "published_sha256": "221eea75fad056f533e9f782fdcd7a851c6deff9e547576c3f4eac591d9a79da"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/data/batch.py",
+      "destination": "polarevolve/data/batch.py",
+      "source_sha256": "f44bfe581f03b2fceb3d5a5847af1a9a762b6a344a776fac94bc14ca86238e78",
+      "published_sha256": "947121322c03f9a02335ca5113741edbaf55e3bd2f40fd5bc4f9fbc96e4688d4"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/data/cache.py",
+      "destination": "polarevolve/data/cache.py",
+      "source_sha256": "525485dd08ed671d9bc3356c0dca7d01ea5f86657870475b59caa57ab5049203",
+      "published_sha256": "8b6d90e587e86cfcde88cd04e6fb0ea251b5113088a7530924d8bac257beaaef"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/data/contracts.py",
+      "destination": "polarevolve/data/contracts.py",
+      "source_sha256": "ef0c350d4c47a22e8c464dba94ffff28c7222d89b66f6483400e33493679e692",
+      "published_sha256": "25a776e1eb8968d0fd590813f32a079015fe958319c9b3a852e15a0b234f6d1d"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/data/dataset.py",
+      "destination": "polarevolve/data/dataset.py",
+      "source_sha256": "be4dc885d7200c2ccf641adfa9f26c914b897730255cf959f5b5d2da536da6ae",
+      "published_sha256": "fd7dbf5d0040dfcaaf636be6f80ff19b0c0283f88e26a428d9110a4616be2d91"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/data/index.py",
+      "destination": "polarevolve/data/index.py",
+      "source_sha256": "b54f07ec16252f7af52d9b8f87cf27769541feacffb02d2401d70e7694520379",
+      "published_sha256": "77efc287496dab8bf90b2e47dbb00d4651d8e528a0af3cd5240502f5e385c9c1"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/data/packing.py",
+      "destination": "polarevolve/data/packing.py",
+      "source_sha256": "b3bf992d9c96349a6c85709f53744d174d86e721b28d28b81a44016ee0aeb117",
+      "published_sha256": "d1df1817e73435d59242b047e2f763ad13a2f7faa7f4f78b25300246dfc5307e"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/data/panel.py",
+      "destination": "polarevolve/data/panel.py",
+      "source_sha256": "4fb93afbc6e4eee886c93f04a4fbd394084a60a82e56cbabcc686978414a65dd",
+      "published_sha256": "5fcf44da30425047c4f3fb0f88772b9871d2a2f178e3dbb44904834cfafdcee8"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/data/provenance.py",
+      "destination": "polarevolve/data/provenance.py",
+      "source_sha256": "72e72e99820b73400b3cfb2a8fb2a7a58f622486c4e66827532dab03f0811afa",
+      "published_sha256": "4067d06dba61cd1461f05d161586c5a64b8cc2ad15e6dbcba877e19c14d1802a"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/data/__init__.py",
+      "destination": "polarevolve/data/__init__.py",
+      "source_sha256": "414d900663ce154af14d6f8b7f38b3a664bb5fbc6fc159506488aeaa3735c3c1",
+      "published_sha256": "8d1bfea6a6b13199356ce289be7f6bd7f47ba46a545f25caca566f6c1aada1fd"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/diffusion/metric.py",
+      "destination": "polarevolve/diffusion/metric.py",
+      "source_sha256": "9c8e36ab1181d81a97ab0bc0f35b6e7378bd395210c9654b05dc179b398e5bb4",
+      "published_sha256": "e2c66a4ed7424e0000c9f8f1b9985ecd79cd9224630ebaa8d13b31464350ae7e"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/diffusion/noise.py",
+      "destination": "polarevolve/diffusion/noise.py",
+      "source_sha256": "50cc99a3c8989256e2d682912fa9dbfe39400717367cb637c1639a7cf0bdd872",
+      "published_sha256": "cd1d93fe2124730bc73663aafdf59db2468159c3d893b81075f2d1653fd5502e"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/diffusion/objective.py",
+      "destination": "polarevolve/diffusion/objective.py",
+      "source_sha256": "384720f759d8d6543d1af9fbfd2e147fbde1b1293516f2db08af1de88bf2ae1f",
+      "published_sha256": "11a06c48251cebf4539205dad45ee1078ce4fb7250da65e116e8569240fda808"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/diffusion/periodic.py",
+      "destination": "polarevolve/diffusion/periodic.py",
+      "source_sha256": "ebe704aefbd4d9550fe89260d781048e2103453f7038aee80cf179494c1e17d9",
+      "published_sha256": "ebe704aefbd4d9550fe89260d781048e2103453f7038aee80cf179494c1e17d9"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/diffusion/sampler.py",
+      "destination": "polarevolve/diffusion/sampler.py",
+      "source_sha256": "7d1488f83f246e730c60fd3af93b87568b90e971c0519b1d3240d7eb0fdb700f",
+      "published_sha256": "c9e7b92c3b95b1e6bc4aabee1369fc1628759f8cced7809cfcf82640db7db61d"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/diffusion/schedule.py",
+      "destination": "polarevolve/diffusion/schedule.py",
+      "source_sha256": "3d3d102a1503d7df5f9aba38bdd65b89a93e0529c0e7a1bf2e3e0a6c14d19ae6",
+      "published_sha256": "6f1aee8b3c1bb8eb408616b97ecf636996e1a0118f74f373b18a0874240c73c0"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/diffusion/update.py",
+      "destination": "polarevolve/diffusion/update.py",
+      "source_sha256": "385db9c0724efcb4f3ce8c687d56b9399101fb58851d2cdbfc749eb15b6bb3af",
+      "published_sha256": "91f069cf3c6c2e30a02df67ccc68a663670b98a59e70984c5d534cfd1be0b6f1"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/diffusion/__init__.py",
+      "destination": "polarevolve/diffusion/__init__.py",
+      "source_sha256": "65f81c447f74ab185ea154ec6299b4a3be2857cbcf6ea0fc97de73ace01901e9",
+      "published_sha256": "bb3cc97f02a6fad674ff27c50f61ea84839f7357db3777e7149f47e042fa8828"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/evaluation/geometry.py",
+      "destination": "polarevolve/evaluation/geometry.py",
+      "source_sha256": "52eefa3f56aa8f2a68b4e71ac1b254368accd594ebbaf8fbce3848ecfb71f725",
+      "published_sha256": "9c018ccca94127de047027dd605f63b6ac6f1d03382cfcc05b87e287fe4bfccb"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/evaluation/__init__.py",
+      "destination": "polarevolve/evaluation/__init__.py",
+      "source_sha256": "1c5e8c56b0d37a2896416bfc98a53cf7be72fa459613965725c18f2b0dd084b7",
+      "published_sha256": "1c5e8c56b0d37a2896416bfc98a53cf7be72fa459613965725c18f2b0dd084b7"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/guidance/chemistry.py",
+      "destination": "polarevolve/guidance/chemistry.py",
+      "source_sha256": "a7ac2ca93f8e41d021c3eab640c8d644ad5ead5ae532ffd93a46502533d028c0",
+      "published_sha256": "425a224d86f09211575c3627479f55d8a6f90a26adffef67062350100e5e6fac"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/guidance/physics.py",
+      "destination": "polarevolve/guidance/physics.py",
+      "source_sha256": "4c1ed57dbe4e4f95919a0958cf30c99fd3cde3151ed52b0690f53e3218f48935",
+      "published_sha256": "92a5f83b2df32aa136ede45766afe23ce34b25e3d81256065aa60e9d34889a9b"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/guidance/__init__.py",
+      "destination": "polarevolve/guidance/__init__.py",
+      "source_sha256": "dfe0237430552641f4e8c7a6c81a964959d8db51fa851b2ae5c24550fcb76783",
+      "published_sha256": "33f958fc0591d9c4a2e14c148d6ec6009f09823caf32c03457b2b397b2e71e6e"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/models/config.py",
+      "destination": "polarevolve/models/config.py",
+      "source_sha256": "311fc935714757013d011d712dba16247cdeb72f806b7f9700850301c0dfed64",
+      "published_sha256": "311fc935714757013d011d712dba16247cdeb72f806b7f9700850301c0dfed64"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/models/geometry.py",
+      "destination": "polarevolve/models/geometry.py",
+      "source_sha256": "1a75c21010b4d2a50a4d92e99f71fbce6139c466105fbad2e57ceb808ccb1f00",
+      "published_sha256": "a9a0dc95bf955ec5b48e7eee62d9d1573d1db5aee8d626f3e1090210b2adef89"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/models/lattice.py",
+      "destination": "polarevolve/models/lattice.py",
+      "source_sha256": "f43c9f23d9b783097be4d4d23b52e46248fd273ae882966a56caca8617c095c6",
+      "published_sha256": "0b7b438a1fe69613bacee69fef1ac9327bb875ba956450e06f351ace68c7b1b9"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/models/score.py",
+      "destination": "polarevolve/models/score.py",
+      "source_sha256": "7db6dffe7e49156bfd1bc4a3456ccc82906247994367c68d416007349e748973",
+      "published_sha256": "0074d66b8ada039a18f2e60095c5102591aacbd093eefeb2136ad97ed0360271"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/models/__init__.py",
+      "destination": "polarevolve/models/__init__.py",
+      "source_sha256": "a377d48d803b5a5a3059b1ae7be76236d89bd9a2ee25d931a80aac3253ae9f21",
+      "published_sha256": "9afaec25bcf0b5b01c36a5042443cceb5f2ec968190dc7deac7a4fa1d2308d6e"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/runtime/distributed.py",
+      "destination": "polarevolve/runtime/distributed.py",
+      "source_sha256": "f0098e8e46180369498af85e8a17ed04dd7a7d87556c78ff9da52ae8fc42fea6",
+      "published_sha256": "a56c2f9e3ae0e1a08cb8637fde2086a6d37f4f590752994c87478b9b7da60129"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/runtime/filesystem.py",
+      "destination": "polarevolve/runtime/filesystem.py",
+      "source_sha256": "194344a61f038cedb9817c1ef6b4a9fe3a83a4dfb3fa9a4c713a14ec52fe4cb0",
+      "published_sha256": "194344a61f038cedb9817c1ef6b4a9fe3a83a4dfb3fa9a4c713a14ec52fe4cb0"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/runtime/sample.py",
+      "destination": "polarevolve/runtime/sample.py",
+      "source_sha256": "b825de350d0fbd7891cd554685e77104d845d092ef39a5855dd37277c154601a",
+      "published_sha256": "fc22f858743202d40f7b916bab47b1e12ac3f30ae5ca4b22d9e5ae30d2ebda1a"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/runtime/train.py",
+      "destination": "polarevolve/runtime/train.py",
+      "source_sha256": "838457dfb9c6aa1c13e0b52040d068d3659ddd497dabed2f191b6e146f993570",
+      "published_sha256": "1039858bd16150127d45c5ca23e7c1a08995c9676754f2decf79e8551818b42b"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/runtime/training_cli.py",
+      "destination": "polarevolve/runtime/training_cli.py",
+      "source_sha256": "d7e9944af63e0e96fe4f4a554933f38376ed1f339f48127b9a918b63802b5382",
+      "published_sha256": "020d361de11220df73c8772dbf400a6454da9081a53e5a5954d888e832312bb2"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/runtime/__init__.py",
+      "destination": "polarevolve/runtime/__init__.py",
+      "source_sha256": "af6e6ff9bb7d2c3c0aed37e6f4659ec5ffe135b0b2a8c2e42a73ad0ceaa58546",
+      "published_sha256": "af6e6ff9bb7d2c3c0aed37e6f4659ec5ffe135b0b2a8c2e42a73ad0ceaa58546"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/sampling/config.py",
+      "destination": "polarevolve/sampling/config.py",
+      "source_sha256": "9f2eca7c41a75d1b30c601c50c1027be351bb4046250eeb83d2d5efb980b807a",
+      "published_sha256": "52874fcf03750042721bb42d738004d86c3d0cbf3022996eced49fd16ebe2656"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/sampling/lattice.py",
+      "destination": "polarevolve/sampling/lattice.py",
+      "source_sha256": "56adce885329baa53de223134668449cb86cb8d2d0e68c14459883f512e560cc",
+      "published_sha256": "09849717b9d24c459c71545eba51de258c823c4448344d345de325df9f4f7398"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/sampling/pipeline.py",
+      "destination": "polarevolve/sampling/pipeline.py",
+      "source_sha256": "a74d3380dced7ad169916e2ad0b8b27cfd2da9485cc629cbf8d36e1b76a08456",
+      "published_sha256": "2e3bc3083a4f33d1dcd11bc5a885e1e0ee7f99335ad8a07598aec714c6a15466"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/sampling/queries.py",
+      "destination": "polarevolve/sampling/queries.py",
+      "source_sha256": "e912fe80d488761aa570767ba4f65effb771dc3ea9e24e340b914e382cc37e3d",
+      "published_sha256": "22f6fca04d142b6ce3beeb21776915b634925a859a31b6a2e55b5b573197587e"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/sampling/refinement.py",
+      "destination": "polarevolve/sampling/refinement.py",
+      "source_sha256": "cb0ee8ba3a7944a8ad3e5cbd0aa04b24508962214ab8649225275d40b47f12b0",
+      "published_sha256": "b0f429ab4f8c3ff17b35c3f99b3afdaa7c243c1bed80856d51eb8addfda6d5e4"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/sampling/telemetry.py",
+      "destination": "polarevolve/sampling/telemetry.py",
+      "source_sha256": "a711b4cc923369cab63374279d035ab91ca5fa5ef79b075303b71b5a19266f22",
+      "published_sha256": "0f0fe3fce726adaaa88f9df4e51d87875aaf949f97f49c8682c805cd2a539bf6"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/sampling/__init__.py",
+      "destination": "polarevolve/sampling/__init__.py",
+      "source_sha256": "20f7c54bc05995f3e1a36bd4b1fbfddaca886e48c46ec5937c680fa885d7635f",
+      "published_sha256": "20f7c54bc05995f3e1a36bd4b1fbfddaca886e48c46ec5937c680fa885d7635f"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/tasks/ferroelectric/conditions.py",
+      "destination": "polarevolve/tasks/ferroelectric/conditions.py",
+      "source_sha256": "c75a59ee009c018ba2047f0246eaf0e83f948be8841bb1fc49131f1be3d11000",
+      "published_sha256": "4cce9bc24fb9165c5ff52a36a4f6d1fba315bf23fb56c8824f150ea199c15384"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/tasks/ferroelectric/od_features.py",
+      "destination": "polarevolve/tasks/ferroelectric/od_features.py",
+      "source_sha256": "c366246cf6a065c90c8ee28e3407c9bb2a18a59a46caccec05b7c9d367760ec0",
+      "published_sha256": "3268e7fdd005ed3c5712d06a0de5af7cd915c6349c4bf90c0b3b6cd169a54144"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/tasks/ferroelectric/od_guidance.py",
+      "destination": "polarevolve/tasks/ferroelectric/od_guidance.py",
+      "source_sha256": "6f06f8634f47c80309f5ae1560019d38fb0883f884d2ec1ce431e1c5c2129188",
+      "published_sha256": "01f39b26115779adfab3ad291f36d79dd6d39040f704af889e739f5eae382420"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/tasks/ferroelectric/od_registry.py",
+      "destination": "polarevolve/tasks/ferroelectric/od_registry.py",
+      "source_sha256": "8b62dad51dfcba8a14c0c7f04c101e64c365175a331da467113afee83ffdb24e",
+      "published_sha256": "8b62dad51dfcba8a14c0c7f04c101e64c365175a331da467113afee83ffdb24e"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/tasks/ferroelectric/relation_records.py",
+      "destination": "polarevolve/tasks/ferroelectric/relation_records.py",
+      "source_sha256": "4be0f1f7570c52a7460418e5b0f881f3c95fe93340cfca52a0aff9de864ccf3e",
+      "published_sha256": "a972313ed49e2a934d7684ff971bc7d74f5f30c51210d7e46a7a398b16546245"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/tasks/ferroelectric/supercell.py",
+      "destination": "polarevolve/tasks/ferroelectric/supercell.py",
+      "source_sha256": "ebfcfbfd16f0263f167b8fc6d1f04cc3169bdfa497f1ceba027bf51fa895d9bf",
+      "published_sha256": "ebfcfbfd16f0263f167b8fc6d1f04cc3169bdfa497f1ceba027bf51fa895d9bf"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/tasks/ferroelectric/__init__.py",
+      "destination": "polarevolve/tasks/ferroelectric/__init__.py",
+      "source_sha256": "ac0078e96f270301ffdb881c37e9256f0a32c09dda923aad212b77cd9df8f334",
+      "published_sha256": "eacedf59a1d19893e028625be85e4837d6064eab8bfa37405dd8007e8b202dab"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/tasks/mp20/objective.py",
+      "destination": "polarevolve/tasks/mp20/objective.py",
+      "source_sha256": "0ecc90d450a240815f644c82f9143b549c9acec4278330e2bb9d984a5c6599a6",
+      "published_sha256": "75d8d2d6aee59f876b7ba5d9b46389770732e186bda2e60f732d01dea0b0d61a"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/tasks/mp20/__init__.py",
+      "destination": "polarevolve/tasks/mp20/__init__.py",
+      "source_sha256": "534d5f110afb82f0d77f6bfa2ba73f7bf58010d25c437b6fb3c90c9598bf3462",
+      "published_sha256": "98a8de167b03b26533aa637ace4b012b12498eba0bd90c4221d613bfba8254cf"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/tasks/__init__.py",
+      "destination": "polarevolve/tasks/__init__.py",
+      "source_sha256": "c2a8474a06511bf6c77cd5e12a17f0385b6f546de3a997d90b1cd7000e52cc0e",
+      "published_sha256": "8f99b6be8d1909c3d6c709400aec0705dbf3d4d5d92f6869818975774cee45da"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/training/checkpoint.py",
+      "destination": "polarevolve/training/checkpoint.py",
+      "source_sha256": "50863ba515624735d9f09650b2175be3aba888c92a93e45bb6906bb4dc552214",
+      "published_sha256": "137173ab0fa502046e9340d85b0372f4b3b1612049acd1d7ccf2129510051af7"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/training/config.py",
+      "destination": "polarevolve/training/config.py",
+      "source_sha256": "450ef65e6bf74280e998dd989d5ad07bb480acfc77fc0f8038571d7a98c5acc9",
+      "published_sha256": "e4326d4ec7cc91561d5c53f5424366712e549d444f2cc7521e9c029fe165e75d"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/training/data.py",
+      "destination": "polarevolve/training/data.py",
+      "source_sha256": "8952d1d3862ddd399c525c9f6e7176baaf543758340aed088dc4fbc5bda811ab",
+      "published_sha256": "39ff9fe7c1e6b60b6e76fe8c698232acb1c76632505252c89c80ea83345525e9"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/training/engine.py",
+      "destination": "polarevolve/training/engine.py",
+      "source_sha256": "3536e96fde81fbf42619a604f583c8625978854aca5be440d7cd01000d0256c2",
+      "published_sha256": "4d5bd5b9c702c6dab0ed6fe81ef4150d3f54279666eeee00c986d4ec12f7358f"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/training/lattice.py",
+      "destination": "polarevolve/training/lattice.py",
+      "source_sha256": "a82dd60c7101b69a9d05bcf7363c7970c79f0e58ef31d4a8c94379c5d472477b",
+      "published_sha256": "1e62d74be9183bbbf89e014af1cd6e09c4c2fb0a06a87aec4565b05c2af9778d"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/training/metrics.py",
+      "destination": "polarevolve/training/metrics.py",
+      "source_sha256": "c33b5764af9e7c97d08bf3d90b5c6f3e32adccaf4ad816a526aa2d883e376452",
+      "published_sha256": "4f16e2c1897508acbbe598b3df1cdf4815b91224d50416ace30e3185c749e66b"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/training/physics.py",
+      "destination": "polarevolve/training/physics.py",
+      "source_sha256": "06491d0b0119f8eb9ff40689c0a5508008056c250c6862caa6bc2405d6e31cee",
+      "published_sha256": "03cc988c4f684a33b825123bfee4ad512763f13757fe3011a1140155300a44f4"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/training/__init__.py",
+      "destination": "polarevolve/training/__init__.py",
+      "source_sha256": "2dfbdab5e16a35715f614acb02adaf062c6069c18f1d6459e039673a9f2efab3",
+      "published_sha256": "2dfbdab5e16a35715f614acb02adaf062c6069c18f1d6459e039673a9f2efab3"
+    },
+    {
+      "source": "PolarGen/src/diffcsp/__init__.py",
+      "destination": "polarevolve/__init__.py",
+      "source_sha256": "bbfe9a03516d3d2eaa00be544498d5027202a443ac3b4799fd72e7bac6349b2b",
+      "published_sha256": "97a520e481afb5eeccd9429d84dae3072adca5d1b38c3f29914444e802096009"
+    }
+  ]
+}

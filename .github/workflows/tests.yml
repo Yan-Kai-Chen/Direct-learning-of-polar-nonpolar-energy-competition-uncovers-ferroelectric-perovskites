@@ -18,11 +18,24 @@ jobs:
         with:
           python-version: "3.11"
           cache: pip
-      - name: Install dependencies
+      - name: Install CPU dependencies and core package
         run: |
           python -m pip install --upgrade pip
-          python -m pip install -r requirements.txt
+          python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install -e ".[test]"
       - name: Run unit tests
         run: python -m unittest discover -s tests -v
       - name: Verify public data manifest
         run: python tools/verify_public_data.py
+      - name: Check public release contents
+        run: python tools/check_release.py
+      - name: Check optional planner interfaces
+        run: |
+          python -m pip install --no-deps -e supplement/operation_planning
+          python -m pytest -q supplement/operation_planning/tests
+      - name: Build wheel and verify installed assets
+        run: |
+          python -m build --wheel --outdir /tmp/polar-wheel
+          python -m pip install --no-deps --force-reinstall /tmp/polar-wheel/*.whl
+          cd /tmp
+          python -c "from polarevolve import asset_root; from polarevolve.crystal.symmetry import GroupDatabase, WyckoffDatabase; p = asset_root(); GroupDatabase(p / 'group_database_v1'); WyckoffDatabase(p / 'wyckoff_gauge_v1'); print('Installed asset readers OK')"

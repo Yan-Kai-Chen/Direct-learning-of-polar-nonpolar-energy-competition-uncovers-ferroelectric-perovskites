@@ -1,0 +1,30 @@
+{
+  "checks": {
+    "all_entry_hashes_present": true,
+    "canonical_anchor_columns": true,
+    "exact_anchor_round_trip": true,
+    "hall_1_530_coverage": true,
+    "licensed_source_hash_verified": true,
+    "multiplicity_matches_member_count": true,
+    "primitive_parameter_lattice": true
+  },
+  "database_version": "wyckoff_gauge_v1",
+  "license_spdx": "BSD-3-Clause",
+  "round_trip_failures": 0,
+  "round_trip_records_checked": 3467,
+  "schema_version": "wyckoff_gauge_build_audit_v1",
+  "source_file_sha256": "84791b323c325a8d83a1a06e4b98f8dde217285f279581b401addba5f4adc40a",
+  "statistics": {
+    "free_dimension_counts": {
+      "0": 1259,
+      "1": 1304,
+      "2": 374,
+      "3": 530
+    },
+    "hall_settings": 530,
+    "max_free_dimension": 3,
+    "orbit_members": 24295,
+    "uppercase_wyckoff_labels": 1,
+    "wyckoff_positions": 3467
+  }
+}

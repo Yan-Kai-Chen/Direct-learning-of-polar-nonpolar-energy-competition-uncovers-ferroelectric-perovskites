@@ -1,0 +1,37 @@
+{
+  "schema_version": "polargen_operation_plan_v1",
+  "request_id": "illustrative-batio3-plan",
+  "parent": {
+    "structure_id": "illustrative-batio3-parent",
+    "formula": "BaTiO3"
+  },
+  "selected_operations": [
+    {
+      "operation_id": "OD01",
+      "name": "B-X distortion contrast",
+      "rank": 1,
+      "direction": "increase",
+      "confidence": 0.82,
+      "magnitude": 0.20,
+      "target_interval": [0.10, 0.30]
+    },
+    {
+      "operation_id": "OD06",
+      "name": "Polar B-X distortion",
+      "rank": 2,
+      "direction": "target",
+      "confidence": 0.76,
+      "magnitude": 0.12,
+      "target_interval": [0.06, 0.18]
+    },
+    {
+      "operation_id": "OD19",
+      "name": "Axial distortion anisotropy",
+      "rank": 3,
+      "direction": "increase",
+      "confidence": 0.68,
+      "magnitude": 0.08,
+      "target_interval": [0.02, 0.14]
+    }
+  ]
+}

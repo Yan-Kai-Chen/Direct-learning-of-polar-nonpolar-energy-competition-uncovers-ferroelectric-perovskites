@@ -1,0 +1,33 @@
+{
+  "artifacts": {
+    "LICENSES/spglib_COPYING.txt": "9c4e602ce15bf48206dad105b666ddaeedba747eeda6465807106bc11f4f587f",
+    "README.md": "5c0e2753e6bc9a443d82ea2f39241260f7bc7169a38642890ab0e5c48c05c24f",
+    "cell_transforms.json": "d8e98a8d6448f1b549c60da6cdf324db19f2b5142e83f5000f1b3b88c6b69509",
+    "pointgroup_hierarchy.json": "31379e6e14b4a043e9d4c3fdc83c024922202ab87d8e3011499768ad121f7e2e",
+    "spacegroup_settings.json": "473d4ab72ff82b892a7213a7ede7e53e170567f8f614e7eb3c26ac5f9abad3a4"
+  },
+  "builder": "scripts/data/build_group_database.py",
+  "builder_sha256": "0098e8ca1b06254acf778a9703fa7d3f459ecabbdde8adbb0bbb845bf325b706",
+  "capabilities": {
+    "affine_gauges": false,
+    "cell_transforms": true,
+    "irreps": false,
+    "maximal_subgroups": false,
+    "pointgroup_hierarchy": true,
+    "spacegroup_settings": true,
+    "wyckoff_positions": false,
+    "wyckoff_splitting": false
+  },
+  "database_version": "group_database_v1",
+  "generated_utc": "2026-07-31T14:40:25+00:00",
+  "schema_version": "group_database_provenance_v1",
+  "sources": [
+    {
+      "license": "BSD-3-Clause",
+      "name": "spglib",
+      "role": "Hall settings, symbols, and point-group metadata",
+      "url": "https://github.com/spglib/spglib",
+      "version": "2.7.0"
+    }
+  ]
+}
